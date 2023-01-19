@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  HardwareDatabase:
+    image: postgres:latest
+    env_file:
+      - ./HardwareDatabase/db.env
+    volumes:
+      - ./HardwareDatabase/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./HardwareDatabase/db:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
