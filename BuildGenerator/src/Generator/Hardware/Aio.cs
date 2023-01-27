@@ -7,7 +7,7 @@ public class Aio : Cooling
     public override string? Manufacturer { get; set; }
     public override string? Socket { get; set; }
     public override int Tdp { get; set; }
+    public override string? Model { get; set; }
     
     public int FansCount { get; set; }
-    public int FansSize { get; set; }
 }

@@ -20,7 +20,7 @@ public class GraphicsBuild : IBuild
     
     public PowerSupply PowerSupply { get; }
 
-    public GraphicsBuild()
+    public GraphicsBuild(int budget)
     {
         Cpu = new Cpu();
         Motherboard = new MotherBoard();

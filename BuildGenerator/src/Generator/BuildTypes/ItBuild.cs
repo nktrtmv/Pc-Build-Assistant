@@ -20,7 +20,7 @@ public class ItBuild : IBuild
     
     public PowerSupply PowerSupply { get; }
 
-    public ItBuild()
+    public ItBuild(int budget)
     {
         Cpu = new Cpu();
         Motherboard = new MotherBoard();

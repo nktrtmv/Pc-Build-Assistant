@@ -20,7 +20,7 @@ public class OfficeBuild : IBuild
     
     public PowerSupply PowerSupply { get; }
 
-    public OfficeBuild()
+    public OfficeBuild(int budget)
     {
         Cpu = new Cpu();
         Motherboard = new MotherBoard();

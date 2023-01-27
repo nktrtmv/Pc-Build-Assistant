@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nktrtmv/Desktop/hse/PC-Build-Assistant/BuildGenerator/src/Generator/Generator.csproj": {}
+    "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Generator/Generator.csproj": {}
   },
   "projects": {
-    "/Users/nktrtmv/Desktop/hse/PC-Build-Assistant/BuildGenerator/src/Generator/Generator.csproj": {
+    "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Generator/Generator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nktrtmv/Desktop/hse/PC-Build-Assistant/BuildGenerator/src/Generator/Generator.csproj",
+        "projectUniqueName": "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Generator/Generator.csproj",
         "projectName": "Generator",
-        "projectPath": "/Users/nktrtmv/Desktop/hse/PC-Build-Assistant/BuildGenerator/src/Generator/Generator.csproj",
+        "projectPath": "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Generator/Generator.csproj",
         "packagesPath": "/Users/nktrtmv/.nuget/packages/",
-        "outputPath": "/Users/nktrtmv/Desktop/hse/PC-Build-Assistant/BuildGenerator/src/Generator/obj/",
+        "outputPath": "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Generator/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nktrtmv/.nuget/NuGet/NuGet.Config"

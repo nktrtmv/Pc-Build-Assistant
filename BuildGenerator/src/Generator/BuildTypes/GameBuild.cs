@@ -20,7 +20,7 @@ public class GameBuild : IBuild
     
     public PowerSupply PowerSupply { get; }
 
-    public GameBuild()
+    public GameBuild(int budget)
     {
         Cpu = new Cpu();
         Motherboard = new MotherBoard();

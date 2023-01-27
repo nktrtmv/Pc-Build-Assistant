@@ -16,4 +16,9 @@ public interface IHardware
     /// Manufacturer of the hardware.
     /// </summary>
     string? Manufacturer { get; set; }
+    
+    /// <summary>
+    /// Model of the hardware.
+    /// </summary>
+    string? Model { get; set; }
 }

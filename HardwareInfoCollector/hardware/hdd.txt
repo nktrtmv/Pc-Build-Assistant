@@ -1,0 +1,5 @@
+﻿* Seagate BarraCuda ST2000DM008 2TB
+* Seagate SkyHawk ST8000VX004 8TB
+* WD Purple Surveillance WD63PURZ 6TB
+* WD Purple WD42PURZ 4TB
+* Seagate SkyHawk ST4000VX013 4TB
