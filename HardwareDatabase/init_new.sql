@@ -11,7 +11,7 @@ CREATE TABLE CPU
     Id SERIAL PRIMARY KEY,
     CpuId INTEGER,
     Manufacturer TEXT NOT NULL,
-    RamType INTEGER,
+    DDR5 INTEGER,
     IntegratedGraphics INTEGER,
     TDP INTEGER,
     Socket TEXT NOT NULL,
@@ -32,8 +32,6 @@ CREATE TABLE AIO
 (
     Id SERIAL PRIMARY KEY,
     AioId INTEGER,
-    Socket TEXT NOT NULL,
-    TDP INTEGER,
     FansCount INTEGER,
     FOREIGN KEY (AioId) REFERENCES Hardware (Id)
 );
@@ -42,7 +40,6 @@ CREATE TABLE AIR
 (
     Id SERIAL PRIMARY KEY,
     AirId INTEGER,
-    Socket TEXT NOT NULL,
     TDP INTEGER,
     FOREIGN KEY (AirId) REFERENCES Hardware (Id)
 );
@@ -80,7 +77,7 @@ CREATE TABLE MB
     MbId INTEGER,
     TargetCpu TEXT NOT NULL,
     Socket TEXT NOT NULL,
-    RamTypeR INTEGER,
+    RamType INTEGER,
     Format TEXT NOT NULL,
     FOREIGN KEY (MbId) REFERENCES Hardware (Id)
 );

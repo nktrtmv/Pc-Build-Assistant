@@ -5,4 +5,5 @@ class PowerSupply(Hardware):
     FormFactor: str
     Certification: str
     IsModular: bool
+    Length: int
 

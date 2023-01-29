@@ -1,7 +1,7 @@
 class Hardware:
     Model: str
     Link: str
-    Price: float
+    Price: str
 
     def __init__(self, model: str):
         self.Model = model

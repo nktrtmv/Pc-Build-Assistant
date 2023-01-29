@@ -1,23 +1,20 @@
-from models.aio import AIO
-from models.air import AirCooling
-from models.case import Case
-from models.cpu import CPU
-from models.gpu import GPU
-from models.hdd import HDD
-from models.mb import MotherBoard
-from models.power import PowerSupply
-from models.ram import Ram
-from models.ssd import SSD
+from models.hardware import *
+from hardware.HardwareList import *
 
-# from hardware import HardwareList
-# hardware = HardwareList.get_hardware_list()
+from parsers.parser import *
+from parsers.dns import *
+from selenium import webdriver
+
+# hardware = get_hardware_list()
+
+browser = webdriver.Chrome()
+
+parser = Dns(browser)
+
+cpu_to_parse = "amd ryzen 7700x"
+processors = parser.parse_cpu_links(parser.get_links(cpu_to_parse), cpu_to_parse)
+for cpu in processors:
+    print(cpu)
+browser.close()
 
 
-import Parser
-
-parser = Parser.Parser('https://www.dns-shop.ru/', "intel core i5 13600",
-                               '//*[@id="header-search"]/div/div[2]/div[1]/input',
-                               '//*[@id="header-search"]/div/div[2]/div[1]/div[2]/span[2]',
-                               'catalog-product__name ui-link ui-link_black')
-
-print(parser.get_links())

@@ -2,9 +2,9 @@ from models.hardware import *
 
 class MotherBoard(Hardware):
     TargetCpu: str
-    Socket: str
-    Ram: int
     Format: str
+    Socket: str
+    RamType: int
 
     def __init__(self, target: str, model: str):
         super().__init__(model)
