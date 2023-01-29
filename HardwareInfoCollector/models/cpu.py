@@ -1,4 +1,7 @@
 from models.hardware import *
+from bs4 import BeautifulSoup
+import requests
+import lxml
 
 class CPU(Hardware):
     Manufacturer: str
@@ -6,4 +9,3 @@ class CPU(Hardware):
     IntegratedGraphics: bool
     TDP: int
     Socket: str
-

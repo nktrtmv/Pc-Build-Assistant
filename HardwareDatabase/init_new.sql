@@ -1,4 +1,4 @@
-CREATE TABLE Hardware
+TCREATE TABLE Hardware
 (
     Id SERIAL PRIMARY KEY,
     Model TEXT NOT NULL,
@@ -11,8 +11,8 @@ CREATE TABLE CPU
     Id SERIAL PRIMARY KEY,
     CpuId INTEGER,
     Manufacturer TEXT NOT NULL,
-    Ram INTEGER,
-    Graphics INTEGER,
+    RamType INTEGER,
+    IntegratedGraphics INTEGER,
     TDP INTEGER,
     Socket TEXT NOT NULL,
     FOREIGN KEY (CpuId) REFERENCES Hardware (Id)
@@ -35,7 +35,6 @@ CREATE TABLE AIO
     Socket TEXT NOT NULL,
     TDP INTEGER,
     FansCount INTEGER,
-    FansSize INTEGER,
     FOREIGN KEY (AioId) REFERENCES Hardware (Id)
 );
 
@@ -81,7 +80,7 @@ CREATE TABLE MB
     MbId INTEGER,
     TargetCpu TEXT NOT NULL,
     Socket TEXT NOT NULL,
-    Ram INTEGER,
+    RamTypeR INTEGER,
     Format TEXT NOT NULL,
     FOREIGN KEY (MbId) REFERENCES Hardware (Id)
 );
@@ -103,7 +102,7 @@ CREATE TABLE RAM
     RamId INTEGER,
     DDRType INTEGER,
     Frequency INTEGER,
-    TotalSize INTEGER,
+    Capacity INTEGER,
     Count INTEGER,
     FOREIGN KEY (RamId) REFERENCES Hardware (Id)
 );
