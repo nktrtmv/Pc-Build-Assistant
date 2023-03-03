@@ -7,7 +7,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Bll\Models" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
       <Folder Include="Bll\Services\Interfaces" />
       <Folder Include="Dal\Entities" />
       <Folder Include="Dal\Repositories\Interfaces" />

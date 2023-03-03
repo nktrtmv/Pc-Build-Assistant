@@ -1,23 +1,26 @@
-using Microsoft.AspNetCore.Mvc;
-using Generator.BuildTypes;
-using Generator.Hardware;
-
-
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddControllers();
+
+builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddSwaggerGen(o =>
+{
+    o.CustomSchemaIds(x => x.FullName);
+});
+
 var app = builder.Build();
 
-app.MapGet("/gen-build/{budget:int}/{type}", (int budget, string type) =>
+if (app.Environment.IsDevelopment())
 {
-    IBuild? build = type switch
-    {
-        "gaming" => new GameBuild(budget),
-        "graphics" => new GraphicsBuild(budget),
-        "it" => new ItBuild(budget),
-        "office" => new OfficeBuild(budget),
-        var _ => null
-    };
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
-    return build == null ? Results.Problem("error") : Results.Ok(build);
-});
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+app.MapControllers();
 
 app.Run();
