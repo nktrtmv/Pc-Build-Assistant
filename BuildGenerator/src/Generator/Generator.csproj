@@ -11,11 +11,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Bll\Services\Interfaces" />
       <Folder Include="Dal\Entities" />
       <Folder Include="Dal\Repositories\Interfaces" />
-      <Folder Include="Requests" />
-      <Folder Include="Responses" />
     </ItemGroup>
 
 </Project>

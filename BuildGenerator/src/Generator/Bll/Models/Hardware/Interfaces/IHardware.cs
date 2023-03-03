@@ -1,4 +1,4 @@
-namespace Generator.Hardware;
+namespace Generator.Bll.Models.Hardware.Interfaces;
 
 public interface IHardware
 { 

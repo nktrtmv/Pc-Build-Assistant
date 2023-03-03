@@ -1,6 +1,8 @@
-using Generator.Hardware;
+using Generator.Bll.Models.BuildTypes.Interfaces;
+using Generator.Bll.Models.Hardware;
+using Generator.Bll.Models.Hardware.AbstractClasses;
 
-namespace Generator.BuildTypes;
+namespace Generator.Bll.Models.BuildTypes;
 
 public class ItBuild : IBuild
 {
