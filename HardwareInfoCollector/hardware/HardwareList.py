@@ -3,7 +3,6 @@ from models.air import AirCooling
 from models.case import Case
 from models.cpu import CPU
 from models.gpu import GPU
-from models.hdd import HDD
 from models.mb import MotherBoard
 from models.power import PowerSupply
 from models.ram import Ram
