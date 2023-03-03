@@ -1,3 +1,4 @@
+using Generator.Bll.Models.BuildTypes;
 using Generator.Bll.Models.BuildTypes.Enums;
 using Generator.Bll.Models.BuildTypes.Interfaces;
 
