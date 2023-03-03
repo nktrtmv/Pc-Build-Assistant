@@ -8,23 +8,14 @@ var app = builder.Build();
 
 app.MapGet("/gen-build/{budget:int}/{type}", (int budget, string type) =>
 {
-    IBuild? build = null;
-    if (type == "gaming")
+    IBuild? build = type switch
     {
-        build = new GameBuild(budget);
-    }
-    else if (type == "graphics")
-    {
-        build = new GraphicsBuild(budget);
-    }
-    else if (type == "it")
-    {
-        build = new ItBuild(budget);
-    }
-    else if (type == "office")
-    {
-        build = new OfficeBuild(budget);
-    }
+        "gaming" => new GameBuild(budget),
+        "graphics" => new GraphicsBuild(budget),
+        "it" => new ItBuild(budget),
+        "office" => new OfficeBuild(budget),
+        var _ => null
+    };
 
     return build == null ? Results.Problem("error") : Results.Ok(build);
 });

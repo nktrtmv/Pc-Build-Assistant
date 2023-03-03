@@ -6,4 +6,13 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Bll\Models" />
+      <Folder Include="Bll\Services\Interfaces" />
+      <Folder Include="Dal\Entities" />
+      <Folder Include="Dal\Repositories\Interfaces" />
+      <Folder Include="Requests" />
+      <Folder Include="Responses" />
+    </ItemGroup>
+
 </Project>
