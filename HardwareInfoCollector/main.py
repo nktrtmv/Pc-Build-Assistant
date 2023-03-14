@@ -4,7 +4,7 @@ from selenium import webdriver
 chrome = webdriver.Chrome()
 parser = Parser(chrome)
 
-parser.parse_cpu_list()
+parser.parse_product_list()
 
 chrome.close()
 
