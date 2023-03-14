@@ -1,24 +1,34 @@
 from selenium import webdriver
-from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 
+
 class Parser:
-    site_url: str
-    search_input_xpath: str
-    search_button_xpath: str
-    product_html_class: str
-    product_html_tag: str
     browser: webdriver
 
     def __init__(self, browser: webdriver):
         self.browser = browser
 
-    def search_product(self, product_to_find):  # if is page -> True or page with links -> False, then soup or links
-        self.browser.get(self.site_url)
-        search_input = self.browser.find_element(By.XPATH, self.search_input_xpath)
-        search_input.send_keys(product_to_find)
-        search_button = self.browser.find_element(By.XPATH, self.search_button_xpath)
-        search_button.click()
-        soup = BeautifulSoup(self.browser.page_source, 'html.parser')
-        products = soup.findAll(self.product_html_tag, class_=self.product_html_class)
-        return False, [self.site_url + product.get('href') for product in products]
+    def parse_cpu_list(self):
+        cpu_data = dict()
+        with open("./hardware/cpu.txt", 'r') as file:
+            data = file.readlines()
+            for line in data:
+                ind = line.find("intel") if "intel" in line else line.find("amd")
+                cpu_data[line.split("@")[0][ind:]] = []
+
+            for site in range(6, 8):
+                for line in data:
+                    line = line[:-1]
+                    ind = line.find("intel") if "intel" in line else line.find("amd")
+                    cpu_data[line.split("@")[0][ind:]].append(self.get_product_price(line.split('@')[site]))
+
+        print(cpu_data)
+
+    def get_product_price(self, link: str) -> (int, str):
+        self.browser.get(link)
+        product = BeautifulSoup(self.browser.page_source, 'lxml')
+        price_ind = str(product).find('"price":')
+        near_price_string = str(product)[price_ind:(price_ind + 20)]
+        price_string = near_price_string[8:near_price_string.find(",")]
+        return price_string, link
+
