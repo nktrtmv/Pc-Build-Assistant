@@ -5,13 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0862e8bb-2d3f-4fb0-aea4-d88a636c7b8f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.Pc-Build-Assistant.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.idea.Pc-Build-Assistant.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/bin/Debug/net6.0/Generator" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/bin/Debug/net6.0/Generator" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/bin/Debug/net6.0/Generator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/bin/Debug/net6.0/Generator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/bin/Debug/net6.0/Generator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/bin/Debug/net6.0/Generator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/apphost" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/ref/Generator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/ref/Generator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/refint/Generator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/refint/Generator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Generator.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Generator.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/staticwebassets.pack.sentinel" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hardware/HardwareList.py" beforeDir="false" afterPath="$PROJECT_DIR$/hardware/HardwareList.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hardware/cpu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hardware/cpu.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hardware/ssd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hardware/ssd.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/hardware.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/hardware.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsers/dns.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/dns.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parsers/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/parser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +65,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -93,6 +107,9 @@
       <workItem from="1675079117334" duration="20669000" />
       <workItem from="1675415057991" duration="722000" />
       <workItem from="1675418670179" duration="619000" />
+      <workItem from="1678806632016" duration="5199000" />
+      <workItem from="1678811975818" duration="18000" />
+      <workItem from="1678813213532" duration="2445000" />
     </task>
     <servers />
   </component>
@@ -100,6 +117,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1678815613904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HardwareInfoCollector$main.coverage" NAME="main Coverage Results" MODIFIED="1675415674985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

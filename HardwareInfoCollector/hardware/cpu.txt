@@ -1,11 +1,11 @@
-﻿* intel core i3 12100 oem@Intel@1@1@89@LGA 1700
-* intel core i5 12400f@Intel@1@0@117@LGA 1700
-* intel core i5 12400 oem@Intel@1@1@117@LGA 1700
-* intel core i5 12600kf@Intel@1@0@150@LGA 1700
-* intel core i5 13600kf@Intel@1@0@181@LGA 1700
-* intel core i7 13700kf@Intel@1@0@253@LGA 1700
-* intel core i9 13900kf@Intel@1@0@253@LGA 1700
-* amd ryzen 7 5800x@AMD@0@0@105@AM4
-* amd ryzen 5 7600x@AMD@1@0@105@AM5
-* amd ryzen 7 7800x@AMD@1@0@105@AM5
-* amd ryzen 9 7900x@AMD@1@0@170@AM5
+﻿* intel core i3 12100 oem@Intel@1@1@89@LGA 1700@https://www.dns-shop.ru/product/ebd4f363fcc7ed20/processor-intel-core-i3-12100-oem/@https://www.regard.ru/product/425544/processor-intel-core-i3-12100-oem@https://www.onlinetrade.ru/catalogue/protsessory-c342/intel/protsessor_intel_core_i3_12100_lga1700_oem_cm8071504651012-3030332.html
+* intel core i5 12400f@Intel@1@0@117@LGA 1700@https://www.dns-shop.ru/product/0a2114a7fcc9ed20/processor-intel-core-i5-12400f-oem/@https://www.regard.ru/product/421881/processor-intel-core-i5-12400f-oem@https://www.onlinetrade.ru/catalogue/protsessory-c342/intel/protsessor_intel_core_i5_12400f_lga1700_oem_cm8071504650609-2968501.html
+* intel core i5 12400 oem@Intel@1@1@117@LGA 1700@https://www.dns-shop.ru/product/d3c6a3f806feed20/processor-intel-core-i5-12400-oem/@https://www.regard.ru/product/421879/processor-intel-core-i5-12400-oem@https://www.onlinetrade.ru/catalogue/protsessory-c342/intel/protsessor_intel_core_i5_12400_lga1700_oem_cm8071504555317-2968506.html
+* intel core i5 12600kf@Intel@1@0@150@LGA 1700@https://www.dns-shop.ru/product/ee41c253fb7bed20/processor-intel-core-i5-12600kf-oem/@https://www.regard.ru/product/412304/processor-intel-core-i5-12600kf-oem@https://www.onlinetrade.ru/catalogue/protsessory-c342/intel/protsessor_intel_core_i5_12600kf_lga1700_oem_cm8071504555228-2868584.html
+* intel core i5 13600kf@Intel@1@0@181@LGA 1700@https://www.dns-shop.ru/product/9d0e9a293f90ed20/processor-intel-core-i5-13600kf-oem/@https://www.regard.ru/product/457773/processor-intel-core-i5-13600kf-oem@https://www.onlinetrade.ru/catalogue/protsessory-c342/intel/protsessor_intel_core_i5_13600kf_lga1700_oem_cm8071504821006-3408167.html
+* intel core i7 13700kf@Intel@1@0@253@LGA 1700@https://www.dns-shop.ru/product/885e95283f99ed20/processor-intel-core-i7-13700kf-oem/@https://www.regard.ru/product/458962/processor-intel-core-i7-13700kf-oem@https://www.onlinetrade.ru/catalogue/protsessory-c342/intel/protsessor_intel_core_i7_13700kf_lga1700_oem_cm8071504820706-3408168.html
+* intel core i9 13900kf@Intel@1@0@253@LGA 1700@https://www.dns-shop.ru/product/5d2dd9f13fa0ed20/processor-intel-core-i9-13900kf-oem/@https://www.regard.ru/product/460675/processor-intel-core-i9-13900kf-oem@https://www.onlinetrade.ru/catalogue/protsessory-c342/intel/protsessor_intel_core_i9_13900kf_lga1700_oem_cm8071505094012-3445005.html
+* amd ryzen 7 5800x@AMD@0@0@105@AM4@https://www.dns-shop.ru/product/4e48fbd4fb77ed20/processor-amd-ryzen-7-5800x-oem/@https://www.regard.ru/product/370866/processor-amd-ryzen-7-5800x-oem@https://www.onlinetrade.ru/catalogue/protsessory-c342/amd/protsessor_amd_ryzen_7_5800x_am4_oem_100_000000063-2369108.html
+* amd ryzen 5 7600x@AMD@1@0@105@AM5@https://www.dns-shop.ru/product/5825b93b38afed20/processor-amd-ryzen-5-7600x-oem/@https://www.regard.ru/product/419163/processor-amd-ryzen-5-7600x-oem@https://www.onlinetrade.ru/catalogue/protsessory-c342/amd/protsessor_amd_ryzen_5_7600x_am5_oem_100_000000593-3375392.html
+* amd ryzen 7 7700x@AMD@1@0@105@AM5@https://www.dns-shop.ru/product/75bdc52138b2ed20/processor-amd-ryzen-7-7700x-oem/@https://www.regard.ru/product/419168/processor-amd-ryzen-7-7700x-oem@https://www.onlinetrade.ru/catalogue/protsessory-c342/amd/protsessor_amd_ryzen_7_7700x_am5_oem_100_000000591-3408174.html
+* amd ryzen 9 7900x@AMD@1@0@170@AM5@https://www.dns-shop.ru/product/7a2387593941ed20/processor-amd-ryzen-9-7900x-oem/@https://www.regard.ru/product/419169/processor-amd-ryzen-9-7900x-oem@https://www.onlinetrade.ru/catalogue/protsessory-c342/amd/protsessor_amd_ryzen_9_7900x_am5_oem_100_000000589-3408173.html

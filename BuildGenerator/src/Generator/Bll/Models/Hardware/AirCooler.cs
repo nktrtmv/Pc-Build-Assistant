@@ -1,4 +1,6 @@
-namespace Generator.Hardware;
+using Generator.Bll.Models.Hardware.AbstractClasses;
+
+namespace Generator.Bll.Models.Hardware;
 
 public class AirCooler : Cooling
 {
