@@ -1,4 +1,4 @@
-TCREATE TABLE Hardware
+CREATE TABLE Hardware
 (
     Id SERIAL PRIMARY KEY,
     Model TEXT NOT NULL,
@@ -23,8 +23,7 @@ CREATE TABLE GPU
     Id SERIAL PRIMARY KEY,
     GpuId INTEGER,
     GpuLength DOUBLE PRECISION,
-    GpuWidth DOUBLE PRECISION,
-    GpuHeight DOUBLE PRECISION,
+    RequiredPowerSupplyWattage INTEGER,
     FOREIGN KEY (GpuId) REFERENCES Hardware (Id)
 );
 
@@ -41,6 +40,7 @@ CREATE TABLE AIR
     Id SERIAL PRIMARY KEY,
     AirId INTEGER,
     TDP INTEGER,
+    Height INTEGER,
     FOREIGN KEY (AirId) REFERENCES Hardware (Id)
 );
 
@@ -48,8 +48,11 @@ CREATE TABLE CASE
 (
     Id SERIAL PRIMARY KEY,
     CaseId INTEGER,
-    PowerSupplyFormat TEXT NOT NULL,
     MotherBoardFormat TEXT NOT NULL,
+    MaxPowerSupplyLength INTEGER,
+    MaxGpuLength INTEGER,
+    MaxAirHeight INTEGER,
+    MaxAioSize INTEGER,
     FOREIGN KEY (CaseId) REFERENCES Hardware (Id)
 );
 
@@ -63,33 +66,25 @@ CREATE TABLE SSD
     FOREIGN KEY (SsdId) REFERENCES Hardware (Id)
 );
 
-CREATE TABLE HDD
-(
-    Id SERIAL PRIMARY KEY,
-    HddId INTEGER,
-    Capacity INTEGER,
-    FOREIGN KEY (HddId) REFERENCES Hardware (Id)
-);
-
 CREATE TABLE MB
 (
     Id SERIAL PRIMARY KEY,
     MbId INTEGER,
     TargetCpu TEXT NOT NULL,
+    Format TEXT NOT NULL,
     Socket TEXT NOT NULL,
     RamType INTEGER,
-    Format TEXT NOT NULL,
     FOREIGN KEY (MbId) REFERENCES Hardware (Id)
 );
 
-CREATE TABLE POWER
+CREATE TABLE POWERSUPPLY
 (
     Id SERIAL PRIMARY KEY,
-    PowerId INTEGER,
+    PowerSupplyId INTEGER,
     Wattage INTEGER,
-    FormFactor TEXT NOT NULL,
     Certification TEXT NOT NULL,
     IsModular INTEGER,
+    MaxPowerSupplyLength INTEGER,
     FOREIGN KEY (PowerId) REFERENCES Hardware (Id)
 );
 

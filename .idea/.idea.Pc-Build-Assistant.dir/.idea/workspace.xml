@@ -1,8 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="318bbdf9-5f0e-46cc-9355-585a23fc0ed1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/BuildTypes/Enums/BuildType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Services/BuildGeneratorService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Services/Interfaces/IBuildGeneratorService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Requests/BuildGenerationRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Responses/BuildGenerationResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pc-Build-Assistant.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pc-Build-Assistant.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/BuildTypes/GameBuild.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/BuildTypes/GameBuild.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/BuildTypes/GraphicsBuild.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/BuildTypes/GraphicsBuild.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/BuildTypes/IBuild.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/BuildTypes/Interfaces/IBuild.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/BuildTypes/ItBuild.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/BuildTypes/ItBuild.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/BuildTypes/OfficeBuild.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/BuildTypes/OfficeBuild.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/Aio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/Aio.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/AirCooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/AirCooler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/Case.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/Case.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/Cooling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/AbstractClasses/Cooling.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/Cpu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/Cpu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/DataStorage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/AbstractClasses/DataStorage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/Gpu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/Gpu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/Hdd.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/Hdd.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/IHardware.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/Interfaces/IHardware.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/MotherBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/MotherBoard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/PowerSupply.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/PowerSupply.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/Ram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/Ram.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/Ssd.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Bll/Models/Hardware/Ssd.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/Controllers/PcBuildController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Controllers/PcBuildController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/Generator.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Generator.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/bin/Debug/net6.0/Generator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/bin/Debug/net6.0/Generator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/bin/Debug/net6.0/Generator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/bin/Debug/net6.0/Generator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/obj/Debug/net6.0/ref/Generator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/obj/Debug/net6.0/ref/Generator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/obj/Debug/net6.0/refint/Generator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/obj/Debug/net6.0/refint/Generator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildGenerator/src/Generator/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/BuildGenerator/src/Generator/obj/staticwebassets.pack.sentinel" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2MV3FYmpzEpvmHo9QxNsnIlgLN7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/nktrtmv/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/nktrtmv/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache&quot;,
+      &quot;/Users/nktrtmv/.local/share/Symbols/src&quot;
+    ]
   }
 }</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="318bbdf9-5f0e-46cc-9355-585a23fc0ed1" name="Changes" comment="" />
+      <created>1677838819793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677838819793</updated>
+      <workItem from="1677838820829" duration="12000" />
+      <workItem from="1677845487452" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
 </project>
