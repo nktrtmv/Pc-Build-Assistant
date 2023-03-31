@@ -1,21 +1,9 @@
-* DEEPCOOL MATREXX 55 MESH ADD-RGB 4F@ATX@E-ATX@170@370@@168@360
-* DEEPCOOL CK560@ATX@E-ATX@160@380@175@360
-* AeroCool Cylon Mini@ATX@Micro-ATX@180@300@147@0
-* DEEPCOOL MATREXX 30@ATX@Micro-ATX@160@250@151@0
-* ZET GAMING Rare M2 ARGB@ATX@E-ATX@160@@380@165@240
-* ZET GAMING Rare Minicase MS1@ATX@Micro-ATX@170@375@163@240
-* DEEPCOOL CG560@ATX@ATX@160@380@175@360
-* AeroCool Aero One Mini Frost@ATX@Micro-ATX@160@327@161@240
-* Cougar Archon 2 Mesh RGB@ATX@ATX@160@315@170@360
-* DEEPCOOL CG540@ATX@ATX@160@380@175@360
-* LIAN LI LANCOOL II MESH@ATX@E-ATX@210@384@176@360
-* Cougar MX430 Air@ATX@ATX@160@320@175@0
-* Cougar MX410 Mesh-G@ATX@ATX@160@300@165@240
-* Cougar Panzer EVO@ATX@E-ATX@200@390@170@360
-* be quiet! Silent BASE 601 window@ATX@E-ATX@288@449@185@360
-* LIAN LI PC-O11 AIR@ATX@E-ATX@255@420@155@360
-* MSI MPG VELOX 100P AIRFLOW@ATX@E-ATX@220@380@175@360
-* Corsair iCUE 4000X RGB@ATX@E-ATX@220@360@170@360
-* Cougar MX660 Mesh RGB@ATX@E-ATX@200@410@165@360
-* DEEPCOOL CL500 4F@ATX@ATX@160@330@165@360
-* LIAN LI Lancool 215 X@ATX@E-ATX@165@370@166@360
+* DEEPCOOL MATREXX 55 MESH ADD-RGB 4F@E-ATX@170@370@168@3@https://www.dns-shop.ru/product/b64c5c37284c3332/korpus-deepcool-matrexx-55-mesh-add-rgb-4f-dp-atx-matrexx55-mesh-ar-4f-cernyj/@https://www.regard.ru/product/349771/korpus-deepcool-matrexx-55-mesh-add-rgb-4f-black@https://www.onlinetrade.ru/catalogue/kompyuternye_korpusa-c1323/deepcool/korpus_deepcool_matrexx_55_mesh_add_rgb_4f-2083596.html
+* DEEPCOOL CK560@E-ATX@160@380@175@3@https://www.dns-shop.ru/product/038843fe45eaed20/korpus-deepcool-ck560-r-ck560-bkaae4-g-1-cernyj/@https://www.regard.ru/product/422107/korpus-deepcool-ck560-black@https://www.onlinetrade.ru/catalogue/kompyuternye_korpusa-c1323/deepcool/korpus_deepcool_ck560_bez_bp-2958240.html
+* AeroCool Cylon Mini@Micro-ATX@180@300@147@0@https://www.dns-shop.ru/product/f9baafd3b0cd3330/korpus-aerocool-cylon-mini-cernyj/@https://www.regard.ru/product/299080/korpus-aerocool-cylon-mini-black@https://www.onlinetrade.ru/catalogue/kompyuternye_korpusa-c1323/aerocool/korpus_aerocool_cylon_mini_chernyy_bez_bp_4718009152168-1585490.html
+* DEEPCOOL MATREXX 30@Micro-ATX@160@250@151@0@https://www.dns-shop.ru/product/542050e0358e3332/korpus-deepcool-matrexx-30-dp-matx-matrexx30-cernyj/@https://www.regard.ru/product/321099/korpus-deepcool-matrexx-30-black@https://www.onlinetrade.ru/catalogue/kompyuternye_korpusa-c1323/deepcool/korpus_deepcool_matrexx_30-1813953.html
+* DEEPCOOL CG560@ATX@160@380@175@3@https://www.dns-shop.ru/product/311d979ef597c823/korpus-deepcool-cg560-r-cg560-bkaae4-g-1-cernyj/@https://www.regard.ru/product/414750/korpus-deepcool-cg560-black@https://www.onlinetrade.ru/catalogue/kompyuternye_korpusa-c1323/deepcool/korpus_deepcool_cg560_bez_bp-2902444.html
+* Cougar Duoface RGB@E-ATX@160@330@190@0@https://www.dns-shop.ru/product/8b991fcbf28ced20/korpus-cougar-duoface-rgb-385zd100011-cernyj/characteristics/@https://www.regard.ru/product/446212/korpus-cougar-duoface-rgb@https://www.onlinetrade.ru/catalogue/kompyuternye_korpusa-c1323/cougar/korpus_cougar_duoface_rgb-3262445.html
+* DEEPCOOL CG540@ATX@160@380@175@3@https://www.dns-shop.ru/product/abba473ef596c823/korpus-deepcool-cg540-r-cg540-bkage4-g-1-cernyj/@https://www.regard.ru/product/414749/korpus-deepcool-cg540-black@https://www.onlinetrade.ru/catalogue/kompyuternye_korpusa-c1323/deepcool/korpus_deepcool_cg540_bez_bp-2902439.html
+* LIAN LI PC-O11 AIR@E-ATX@255@420@155@3@https://www.dns-shop.ru/product/f179193a03e7d763/korpus-lian-li-pc-o11-mini-air-g99o11amxr0-cernyj/@https://www.onlinetrade.ru/catalogue/kompyuternye_korpusa-c1323/lian_li/korpus_lian_li_pc_o11_dynamic_mini_air_black_g99.o11amx.00-3568329.html
+* LIAN LI Lancool 215 X@E-ATX@165@370@166@3@https://www.dns-shop.ru/product/662f2234ddf73332/korpus-lian-li-lancool-215-x-g99lan215xr0-cernyj/@https://www.onlinetrade.ru/catalogue/kompyuternye_korpusa-c1323/lian_li/korpus_lian_li_lancool_215_black_g99.lan215x.00-3387290.html
