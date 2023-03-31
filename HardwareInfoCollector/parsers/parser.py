@@ -28,7 +28,6 @@ class Parser:
         with open(file, 'r') as f:
             data = f.readlines()
             for line in data:
-                print(line)
                 ind = line.find("*") + 2
                 product_name = line.split("@")[0][ind:]
                 product_data[product_name] = []
