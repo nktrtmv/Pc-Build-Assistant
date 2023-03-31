@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "dSzj6CPmgVLmuqzDLC9XN59so3ypfX6b0/dTjA8/JRucNsLQufWIH4vMCBaPnN0dBrpATkbuQtA9kkcZuGdNyg==",
+  "success": true,
+  "projectFilePath": "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Api/Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/nktrtmv/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/nktrtmv/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/nktrtmv/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/nktrtmv/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/nktrtmv/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/nktrtmv/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

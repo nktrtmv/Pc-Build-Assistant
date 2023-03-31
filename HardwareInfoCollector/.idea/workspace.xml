@@ -5,26 +5,161 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0862e8bb-2d3f-4fb0-aea4-d88a636c7b8f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net6.0/Generator" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net6.0/Generator.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net6.0/Generator.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net6.0/Generator.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net6.0/Generator.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net6.0/Generator.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net6.0/apphost" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Generator.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Generator.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Generator.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Generator.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Generator.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Generator.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Generator.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Generator.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Domain/Controllers/WeatherForecastController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Domain/Domain.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Domain/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Domain/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Domain/WeatherForecast.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Domain/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Domain/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Domain/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Domain/obj/Debug/net7.0/Domain.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Domain/obj/Debug/net7.0/Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Domain/obj/Debug/net7.0/Domain.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Domain/obj/Debug/net7.0/Domain.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Domain/obj/Debug/net7.0/Domain.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Domain/obj/Debug/net7.0/Domain.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Domain/obj/Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Domain/obj/Domain.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Domain/obj/Domain.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Domain/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Domain/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Domain/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Infrastructure/Controllers/WeatherForecastController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Infrastructure/Infrastructure.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Infrastructure/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Infrastructure/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Infrastructure/WeatherForecast.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Infrastructure/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Infrastructure/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Infrastructure/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Infrastructure/obj/Debug/net7.0/Infrastructure.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Infrastructure/obj/Debug/net7.0/Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Infrastructure/obj/Debug/net7.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Infrastructure/obj/Debug/net7.0/Infrastructure.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Infrastructure/obj/Debug/net7.0/Infrastructure.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Infrastructure/obj/Debug/net7.0/Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Infrastructure/obj/Infrastructure.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Infrastructure/obj/Infrastructure.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Infrastructure/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Infrastructure/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Infrastructure/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_data/aio.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_data/air.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_data/case.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_data/gpu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_data/mb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_data/ram.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware_data/ssd.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/.idea.Pc-Build-Assistant.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.idea.Pc-Build-Assistant.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/bin/Debug/net6.0/Generator" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/bin/Debug/net6.0/Generator" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/bin/Debug/net6.0/Generator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/bin/Debug/net6.0/Generator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/bin/Debug/net6.0/Generator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/bin/Debug/net6.0/Generator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/apphost" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/ref/Generator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/ref/Generator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/refint/Generator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/refint/Generator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Generator.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Generator.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/BuildGenerator.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/BuildGenerator.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Bll/Models/BuildTypes/Enums/BuildType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Bll/Models/BuildTypes/Enums/BuildType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Bll/Models/BuildTypes/GameBuild.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Bll/Models/BuildTypes/GameBuild.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Bll/Models/BuildTypes/GraphicsBuild.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Bll/Models/BuildTypes/GraphicsBuild.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Bll/Models/BuildTypes/Interfaces/IBuild.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Bll/Models/BuildTypes/Interfaces/IBuild.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Bll/Models/BuildTypes/ItBuild.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Bll/Models/BuildTypes/ItBuild.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Bll/Models/BuildTypes/OfficeBuild.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Bll/Models/BuildTypes/OfficeBuild.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Bll/Models/Hardware/AbstractClasses/Cooling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Bll/Models/Hardware/AbstractClasses/Cooling.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Bll/Models/Hardware/AbstractClasses/DataStorage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Bll/Models/Hardware/AbstractClasses/DataStorage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Bll/Models/Hardware/Aio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Bll/Models/Hardware/Aio.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Bll/Models/Hardware/AirCooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Bll/Models/Hardware/AirCooler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Bll/Models/Hardware/Case.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Bll/Models/Hardware/Case.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Bll/Models/Hardware/Cpu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Bll/Models/Hardware/Cpu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Bll/Models/Hardware/Gpu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Bll/Models/Hardware/Gpu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Bll/Models/Hardware/Hdd.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Bll/Models/Hardware/Hdd.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Bll/Models/Hardware/Interfaces/IHardware.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Bll/Models/Hardware/Interfaces/IHardware.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Bll/Models/Hardware/MotherBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Bll/Models/Hardware/MotherBoard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Bll/Models/Hardware/PowerSupply.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Bll/Models/Hardware/PowerSupply.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Bll/Models/Hardware/Ram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Bll/Models/Hardware/Ram.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Bll/Models/Hardware/Ssd.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Bll/Models/Hardware/Ssd.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Bll/Services/BuildGeneratorService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Bll/Services/BuildGeneratorService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Bll/Services/Interfaces/IBuildGeneratorService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Bll/Services/Interfaces/IBuildGeneratorService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Controllers/PcBuildController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Controllers/PcBuildController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Generator.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Requests/BuildGenerationRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Requests/BuildGenerationRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/Responses/BuildGenerationResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Responses/BuildGenerationResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/bin/Debug/net6.0/Generator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/bin/Debug/net6.0/Generator.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net6.0/Generator.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/bin/Debug/net6.0/Generator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net6.0/Generator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/bin/Debug/net6.0/Generator.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/bin/Debug/net6.0/Generator.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net6.0/Generator.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/bin/Debug/net6.0/Microsoft.OpenApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net6.0/Microsoft.OpenApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/bin/Debug/net6.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net6.0/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/bin/Debug/net6.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net6.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net6.0/Generator.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net6.0/Generator.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net6.0/Generator.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net6.0/Generator.GlobalUsings.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net6.0/Generator.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net6.0/Generator.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.csproj.CopyComplete" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net6.0/Generator.csproj.CopyComplete" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net6.0/Generator.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net6.0/Generator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net6.0/Generator.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/Generator.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/apphost" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/ref/Generator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net6.0/ref/Generator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/refint/Generator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net6.0/refint/Generator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Generator.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Generator.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Generator.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Api.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/Generator.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Api.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Generator/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/init_new.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/init_new.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hardware/cpu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hardware/cpu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware/HardwareList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware/aio.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware/air.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware/case.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware/cpu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_data/cpu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware/gpu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware/mb.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware/power.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware/ram.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware/ssd.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parsers/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/parser.py" afterDir="false" />
     </list>
@@ -109,7 +244,10 @@
       <workItem from="1675418670179" duration="619000" />
       <workItem from="1678806632016" duration="5199000" />
       <workItem from="1678811975818" duration="18000" />
-      <workItem from="1678813213532" duration="2445000" />
+      <workItem from="1678813213532" duration="2542000" />
+      <workItem from="1679664043104" duration="9882000" />
+      <workItem from="1679877495783" duration="3394000" />
+      <workItem from="1680226464761" duration="4310000" />
     </task>
     <servers />
   </component>
@@ -117,7 +255,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1678815613904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1680229137767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HardwareInfoCollector$main.coverage" NAME="main Coverage Results" MODIFIED="1675415674985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
