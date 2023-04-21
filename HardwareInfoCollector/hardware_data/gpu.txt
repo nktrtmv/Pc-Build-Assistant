@@ -1,52 +1,33 @@
-* MSI GeForce GTX 1630 VENTUS XS OC@178@500
-* Palit GeForce GTX 1650 Gaming Pro@170@500
-* MSI GeForce GTX 1650 VENTUS XS OC V1@177@500
-* GIGABYTE Intel Arc A380 GAMING OC@280@500
-* ASUS TUF Gaming Radeon RX 6500 XT OC Edition@250@500
-* MSI GeForce GTX 1650 D6 GAMING X@245@500
-* GIGABYTE GeForce GTX 1660 OC@224@650
-* GIGABYTE GeForce GTX 1660 Ti OC@226@650
-* GIGABYTE GeForce GTX 1660 SUPER OC@226@650
-* GIGABYTE GeForce GTX 1660 SUPER D6@226@650
-* MSI GeForce GTX 1660 SUPER VENTUS XS OC@204@650
-* MSI GeForce GTX 1660 SUPER Gaming X@247@650
-* MSI GeForce RTX 3050 VENTUS 2X@235@650
-* MSI GeForce RTX 3050 VENTUS 2X OC@235@650
-* ASUS Dual GeForce RTX 3050 OC Edition@200@650
-* MSI GeForce RTX 3050 GAMING X@278@650
-* MSI GeForce RTX 3060 VENTUS 2X OC@235@650
-* MSI GeForce RTX 3060 GAMING X@276@650
-* GIGABYTE GeForce RTX 3060 VISION OC@280@650
-* MSI GeForce RTX 3060 VENTUS 3X OC@316@650
-* MSI GeForce RTX 3060 Ti VENTUS 2X V1 LHR@235@750
-* MSI GeForce RTX 3060 Ti VENTUS 2X OCV1@235@750
-* MSI GeForce RTX 3060 Ti GAMING X@278@750
+* MSI GeForce GTX 1650 VENTUS XS OC V1@177@500@https://www.dns-shop.ru/product/68b7ebe8b0673332/videokarta-msi-geforce-gtx-1650-d6-ventus-xs-oc-v1-gtx-1650-d6-ventus-xs-ocv1/@https://www.regard.ru/product/364177/videokarta-nvidia-geforce-gtx-1650-msi-4gb-gtx-1650-d6-ventus-xs-ocv1@https://www.onlinetrade.ru/catalogue/videokarty-c338/msi/videokarta_msi_geforce_gtx_1650_d6_ventus_xs_oc_v1_4g_gtx_1650_d6_ventus_xs_ocv1-2271777.html
+* GIGABYTE Intel Arc A380 GAMING OC@280@500@https://www.dns-shop.ru/product/e87ba8ad4a09ed20/videokarta-gigabyte-intel-arc-a380-gaming-oc-gv-ia380gaming-oc-6gd/@https://www.regard.ru/product/9333/videokarta-intel-arc-a380-gigabyte-6gb-gv-ia380gaming-oc-6gd@https://www.onlinetrade.ru/catalogue/videokarty-c338/gigabyte/videokarta_gigabyte_arc_a380_gaming_oc_6g_gv_ia380gaming_oc_6gd-3430689.html
+* ASUS TUF Gaming Radeon RX 6500 XT OC Edition@250@500@https://www.dns-shop.ru/product/582ad27387f4ed20/videokarta-asus-tuf-gaming-radeon-rx-6500-xt-oc-edition-tuf-rx6500xt-o4g-gaming/@https://www.regard.ru/product/418345/videokarta-amd-radeon-rx-6500-xt-asus-4gb-tuf-rx6500xt-o4g-gaming@https://www.onlinetrade.ru/catalogue/videokarty-c338/asus/videokarta_asus_radeon_rx_6500_xt_tuf_gaming_oc_4g_tuf_rx6500xt_o4g_gaming-3029982.html
+* MSI GeForce GTX 1650 D6 GAMING X@245@500@https://www.dns-shop.ru/product/28804e4c64ff3332/videokarta-msi-geforce-gtx-1650-d6-gaming-x-gtx-1650-d6-gaming-x-4g/@https://www.regard.ru/product/351300/videokarta-nvidia-geforce-gtx-1650-msi-4gb-gtx-1650-d6-gaming-x@https://www.onlinetrade.ru/catalogue/videokarty-c338/msi/videokarta_msi_geforce_gtx_1650_d6_gaming_x_4g-2105125.html
+* GIGABYTE GeForce GTX 1660 OC@224@650@https://www.dns-shop.ru/product/7ab448e0ee673332/videokarta-gigabyte-geforce-gtx-1660-super-oc-gv-n166soc-6gd-10/@https://www.onlinetrade.ru/catalogue/videokarty-c338/gigabyte/videokarta_gigabyte_geforce_gtx_1660_oc_6g_gv_n166toc_6gd-1701231.html
+* GIGABYTE GeForce GTX 1660 SUPER D6@226@650@https://www.dns-shop.ru/product/9df430327b243332/videokarta-gigabyte-geforce-gtx-1660-super-d6-gv-n166sd6-6gd/@https://www.onlinetrade.ru/catalogue/videokarty-c338/gigabyte/videokarta_gigabyte_geforce_gtx_1660_super_d6_6g_gv_n166sd6_6gd-2486199.html
+* MSI GeForce GTX 1660 SUPER VENTUS XS OC@204@650@https://www.dns-shop.ru/product/df670c6df4813332/videokarta-msi-geforce-gtx-1660-super-ventus-xs-oc-geforce-gtx-1660-super-ventus-xs-oc/@https://www.regard.ru/product/336216/videokarta-nvidia-geforce-gtx-1660-super-msi-6gb-gtx-1660-super-ventus-xs-oc@https://www.onlinetrade.ru/catalogue/videokarty-c338/msi/videokarta_msi_geforce_gtx_1660_super_ventus_xs_oc_6g-3193013.html
+* MSI GeForce GTX 1660 SUPER Gaming X@247@650@https://www.dns-shop.ru/product/41a57000f4823332/videokarta-msi-geforce-gtx-1660-super-gaming-x-gtx-1660-super-gaming-x/@https://www.regard.ru/product/336215/videokarta-nvidia-geforce-gtx-1660-super-msi-6gb-gtx-1660-super-gaming-x@https://www.onlinetrade.ru/catalogue/videokarty-c338/msi/videokarta_msi_geforce_gtx_1660_super_gaming_x_6g-1954113.html
+* MSI GeForce RTX 3050 VENTUS 2X OC@235@650@https://www.dns-shop.ru/product/b3f658c78b04ed20/videokarta-msi-geforce-rtx-3050-ventus-2x-oc-rtx-3050-ventus-2x-8g-oc/@https://www.regard.ru/product/418296/videokarta-nvidia-geforce-rtx-3050-msi-8gb-rtx-3050-ventus-2x-8g-oc@https://www.onlinetrade.ru/catalogue/videokarty-c338/msi/videokarta_msi_geforce_rtx_3050_8g_ventus_2x_oc_8g_rtx_3050_ventus_2x_8g_oc-3027259.html
+* ASUS Dual GeForce RTX 3050 OC Edition@200@650@https://www.dns-shop.ru/product/da9122a584c7ed20/videokarta-asus-dual-geforce-rtx-3050-oc-edition-dual-rtx3050-o8g/@https://www.regard.ru/product/418301/videokarta-nvidia-geforce-rtx-3050-asus-8gb-dual-rtx3050-o8g@https://www.onlinetrade.ru/catalogue/videokarty-c338/asus/videokarta_asus_geforce_rtx_3050_dual_oc_8g_dual_rtx3050_o8g-2991543.html
+* MSI GeForce RTX 3050 GAMING X@278@650@https://www.dns-shop.ru/product/b3f658c58b04ed20/videokarta-msi-geforce-rtx-3050-gaming-x-rtx-3050-gaming-x-8g/@https://www.regard.ru/product/418300/videokarta-nvidia-geforce-rtx-3050-msi-8gb-rtx-3050-gaming-x-8g@https://www.onlinetrade.ru/catalogue/videokarty-c338/msi/videokarta_msi_geforce_rtx_3050_gaming_x_8g-3027258.html
+* MSI GeForce RTX 3060 VENTUS 2X OC@235@650@https://www.dns-shop.ru/product/55cc9b9165b71b80/videokarta-msi-geforce-rtx-3060-ventus-2x-oc-lhr-rtx-3060-ventus-2x-12g-oc/@https://www.regard.ru/product/381515/videokarta-nvidia-geforce-rtx-3060-msi-12gb-rtx-3060-ventus-2x-12g-oc@https://www.onlinetrade.ru/catalogue/videokarty-c338/msi/videokarta_msi_geforce_rtx_3060_ventus_2x_oc_12g_rtx_3060_ventus_2x_12g_oc-2671004.html
+* GIGABYTE GeForce RTX 3060 VISION OC@280@650@https://www.dns-shop.ru/product/17c0d174b4872eb1/videokarta-gigabyte-geforce-rtx-3060-vision-oc-lhr-gv-n3060vision-oc-12gd-rev20/@https://www.regard.ru/product/392356/videokarta-nvidia-geforce-rtx-3060-gigabyte-12gb-lhr-gv-n3060vision-oc-12gd-20@https://www.onlinetrade.ru/catalogue/videokarty-c338/gigabyte/videokarta_gigabyte_geforce_rtx_3060_vision_oc_2.0_12g_gv_n3060vision_oc_12gd_2.0-2664377.html
+* MSI GeForce RTX 3060 VENTUS 3X OC@316@650@https://www.dns-shop.ru/product/c987200865b71b80/videokarta-msi-geforce-rtx-3060-ventus-3x-oc-lhr-rtx-3060-ventus-3x-12g-oc/@https://www.regard.ru/product/383554/videokarta-nvidia-geforce-rtx-3060-msi-12gb-rtx-3060-ventus-3x-12g-oc@https://www.onlinetrade.ru/catalogue/videokarty-c338/msi/videokarta_msi_geforce_rtx_3060_ventus_3x_oc_12g_rtx_3060_ventus_3x_12g_oc-2521559.html
 * MSI GeForce RTX 3060 Ti VENTUS 2X OC@235@750
+* MSI GeForce RTX 3060 Ti GAMING X@278@750
 * GIGABYTE GeForce RTX 3060 Ti VISION OC@280@650
-* GIGABYTE GeForce RTX 3060 Ti GAMING OC@282@750
-* MSI GeForce RTX 3060 Ti VENTUS 3X OC@316@750
 * Palit GeForce RTX 3070 GameRock V1@304@750
 * GIGABYTE GeForce RTX 3070 GAMING OC@286@750
 * MSI GeForce RTX 3070 VENTUS 3X OC@316@750
 * MSI GeForce RTX 3070 Ti VENTUS 3X OC@316@750
 * GIGABYTE GeForce RTX 3070 Ti GAMING OC@320@750
-* GIGABYTE GeForce RTX 3070 Ti GAMING@320@750
 * Palit GeForce RTX 3070 Ti GameRock OC@304@750
-* Palit GeForce RTX 4070 Ti GameRock@314@850
 * Palit GeForce RTX 4070 Ti GameRock OC@314@850
 * MSI GeForce RTX 4070 Ti VENTUS 3X OC@308@850
-* MSI GeForce RTX 4070 Ti GAMING TRIO@337@850
 * MSI GeForce RTX 4070 Ti GAMING X TRIO@337@850
 * GIGABYTE GeForce RTX 4070 Ti GAMING OC@336@850
-* GIGABYTE GeForce RTX 4070 Ti AERO OC@336@850
-* MSI GeForce RTX 4070 Ti SUPRIM X@338@850
-* Palit GeForce RTX 4080 GamingPro OC@329@1000
-* Palit GeForce RTX 4080 GameRock@330@1000
 * Palit GeForce RTX 4080 GameRock OC@330@1000
 * MSI GeForce RTX 4080 GAMING X TRIO@337@1000
 * GIGABYTE GeForce RTX 4080 GAMING OC@342@1000
-* MSI GeForce RTX 4080 SUPRIM X@336@1000
-* Palit GeForce RTX 4090 GameRock@330@1200
 * MSI GeForce RTX 4090 GAMING X TRIO@337@1200
 * GIGABYTE AORUS GeForce RTX 4090 MASTER@359@1200
 * Palit GeForce RTX 4090 GameRock OC@330@1200

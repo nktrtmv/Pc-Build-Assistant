@@ -1,11 +1,30 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
+from selenium.webdriver.chrome.service import Service
+from config import *
+import time
+
+# def get_chromedriver(user_agent):
+#     chrome_options = webdriver.ChromeOptions()
+#
+#     if user_agent:
+#         chrome_options.add_argument(f'--user-agent={user_agent}')
+#
+#     s = Service(
+#         executable_path='chrome_drivers/chromedriver_mac_arm64/chromedriver'
+#     )
+#     driver = webdriver.Chrome(
+#         service=s,
+#         options=chrome_options
+#     )
+#
+#     return driver
 
 
 class Parser:
     browser: webdriver
 
-    def __init__(self, browser: webdriver):
+    def __init__(self, browser):
         self.browser = browser
 
     def parse_products(self, file: str, info_len: int) -> dict:
@@ -37,6 +56,9 @@ class Parser:
                     product_info = self.get_product_price(line.split('@')[site])
                     element_to_add = (100000000 if product_info[0] == '' else float(product_info[0]), product_info[1])
                     product_data[product_name].append(element_to_add)
+
+        self.browser.close()
+        self.browser.quit()
 
         return product_data
 
