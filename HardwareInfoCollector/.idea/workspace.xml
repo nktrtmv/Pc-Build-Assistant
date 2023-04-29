@@ -8,7 +8,7 @@
       <change beforePath="$PROJECT_DIR$/../HardwareDatabase/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/init.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HardwareDatabase/init_new.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hardware_data/power_supply.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_data/power_supply.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware_data/ram.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_data/ram.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +97,7 @@
       <workItem from="1679877495783" duration="3394000" />
       <workItem from="1680226464761" duration="20228000" />
       <workItem from="1680279906721" duration="1919000" />
-      <workItem from="1682078408600" duration="7069000" />
+      <workItem from="1682078408600" duration="8766000" />
     </task>
     <servers />
   </component>
