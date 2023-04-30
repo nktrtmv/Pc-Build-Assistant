@@ -24,9 +24,6 @@ import time
 class Parser:
     browser: webdriver
 
-    def __init__(self, browser):
-        self.browser = browser
-
     def parse_products(self, file: str, info_len: int) -> dict:
         """
             info_len for aio: 2;

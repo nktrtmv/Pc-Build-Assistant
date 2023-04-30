@@ -8,7 +8,15 @@
       <change beforePath="$PROJECT_DIR$/../HardwareDatabase/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/init.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HardwareDatabase/init_new.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collected_info/aio.json" beforeDir="false" afterPath="$PROJECT_DIR$/collected_info/aio.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collected_info/air.json" beforeDir="false" afterPath="$PROJECT_DIR$/collected_info/air.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collected_info/case.json" beforeDir="false" afterPath="$PROJECT_DIR$/collected_info/case.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hardware_data/mb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_data/mb.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/proxy_auth_plugin_1.zip" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/proxy_auth_plugin_1.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/proxy_auth_plugin_2.zip" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/proxy_auth_plugin_2.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/proxy_auth_plugin_3.zip" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/proxy_auth_plugin_3.zip" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +105,7 @@
       <workItem from="1679877495783" duration="3394000" />
       <workItem from="1680226464761" duration="20228000" />
       <workItem from="1680279906721" duration="1919000" />
-      <workItem from="1682078408600" duration="12349000" />
+      <workItem from="1682078408600" duration="15865000" />
     </task>
     <servers />
   </component>
@@ -109,6 +117,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HardwareInfoCollector$main.coverage" NAME="main Coverage Results" MODIFIED="1675415674985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1680281358582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1682854933148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
