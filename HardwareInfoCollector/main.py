@@ -13,7 +13,7 @@ import json
 import zipfile
 from selenium.webdriver.chrome.service import Service
 from config import *
-from flask import Flask
+from flask import Flask, make_response
 import psycopg2
 
 conn = psycopg2.connect(
@@ -469,17 +469,22 @@ app = Flask(__name__)
 
 @app.route('/update-hardware-database')
 def update_hardware_data():
-    collect_data()
+    try:
+        collect_data()
 
-    hardware_list = process_collected_data()
+        hardware_list = process_collected_data()
 
-    update_database(hardware_list)
+        update_database(hardware_list)
 
-    return "Success"
+        response = make_response("Success")
+        response.status = 200
+
+    except:
+        response = make_response("Internal Server Error")
+        response.status = 500
+
+    return response
 
 
 if __name__ == '__main__':
-    # app.run(debug=True, port=3000, host="127.0.0.1")
-    h = process_collected_data()
-
-    update_database(h)
+    app.run(debug=True, port=3000, host="127.0.0.1")
