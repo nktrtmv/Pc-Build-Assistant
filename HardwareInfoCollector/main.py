@@ -14,6 +14,15 @@ import zipfile
 from selenium.webdriver.chrome.service import Service
 from config import *
 from flask import Flask
+import psycopg2
+
+conn = psycopg2.connect(
+    dbname="hardware",
+    user="nktrtmv",
+    password="hardware_db_password",
+    host="localhost",
+    port="5432"
+)
 
 
 def get_chromedriver(manifest, background, use_proxy=False, user_agent=None, driver_number=0):
@@ -201,8 +210,8 @@ def process_collected_data():
                                 continue
 
                             manufacturer = info[1]
-                            ddr5 = bool(info[2])
-                            integrated_graphics = bool(info[3])
+                            ddr5 = int(info[2]) == 1
+                            integrated_graphics = int(info[3]) == 1
                             tdp = int(info[4])
                             socket = info[5]
 
@@ -264,7 +273,7 @@ def process_collected_data():
                             target_cpu = info[1]
                             mb_format = info[2]
                             socket = info[3]
-                            ddr5 = bool(info[4])
+                            ddr5 = int(info[4]) == 5
 
                             hardware_list.append(
                                 MotherBoard(product_type, model, price, link,
@@ -294,7 +303,7 @@ def process_collected_data():
 
                             wattage = int(info[1])
                             cert = info[2]
-                            modular = bool(info[3])
+                            modular = int(info[3]) == 1
                             length = int(info[4])
 
                             hardware_list.append(
@@ -323,7 +332,7 @@ def process_collected_data():
                             if price == 1e9:
                                 continue
 
-                            ddr5 = bool(info[1])
+                            ddr5 = int(info[1]) == 5
                             frequency = int(info[2])
                             capacity = int(info[3])
                             count = int(info[4])
@@ -365,8 +374,94 @@ def process_collected_data():
     return hardware_list
 
 
-def update_database():
-    return
+def update_database(hardware_list: []):
+    # Start a new transaction
+    conn.autocommit = False
+    cursor = conn.cursor()
+
+    try:
+        # Loop over the list of products
+        for product in hardware_list:
+            # Check if the model already exists in the hardware table
+            cursor.execute("SELECT * FROM hardware WHERE model = %s", (product.Model,))
+            result = cursor.fetchone()
+
+            if result:
+                # Update the info of the existing hardware object
+                cursor.execute("UPDATE hardware SET price = %s, link = %s WHERE model = %s",
+                               (product.Price, product.Link, product.Model)
+                               )
+            else:
+                # Add a new hardware object
+                cursor.execute(
+                    "INSERT INTO hardware (product_type, model, price, link) VALUES (%s, %s, %s, %s) returning id",
+                    (product.ProductType, product.Model, product.Price, product.Link)
+                )
+
+                hardware_id = cursor.fetchone()[0]
+
+                if isinstance(product, AIO):
+                    cursor.execute(
+                        "INSERT INTO aio (hardware_id, fans_count) VALUES (%s, %s)",
+                        (hardware_id, product.FansCount)
+                    )
+                elif isinstance(product, AirCooling):
+                    cursor.execute(
+                        "INSERT INTO air (hardware_id, tdp, height) VALUES (%s, %s, %s)",
+                        (hardware_id, product.TDP, product.Height)
+                    )
+                elif isinstance(product, Case):
+                    cursor.execute(
+                        "INSERT INTO pc_case (hardware_id, mother_board_format, max_power_supply_length, max_gpu_length, max_air_height, max_aio_fans_count) VALUES (%s, %s, %s, %s, %s, %s)",
+                        (hardware_id, product.MotherBoardFormat, product.MaxPowerSupplyLength, product.MaxGpuLength,
+                         product.MaxAirHeight, product.MaxAioFansCount)
+                    )
+                elif isinstance(product, CPU):
+                    cursor.execute(
+                        "INSERT INTO cpu (hardware_id, manufacturer, ddr5, integrated_graphics, tdp, socket) VALUES (%s, %s, %s, %s, %s, %s)",
+                        (hardware_id, product.Manufacturer, product.DDR5, product.IntegratedGraphics, product.TDP,
+                         product.Socket)
+                    )
+                elif isinstance(product, GPU):
+                    cursor.execute(
+                        "INSERT INTO gpu (hardware_id, gpu_length, required_power_supply_wattage) VALUES (%s, %s, %s)",
+                        (hardware_id, product.Length, product.RequiredPowerSupplyWattage)
+                    )
+                elif isinstance(product, MotherBoard):
+                    cursor.execute(
+                        "INSERT INTO motherboard (hardware_id, target_cpu, format, socket, ddr5) VALUES (%s, %s, %s, %s, %s)",
+                        (hardware_id, product.TargetCpu, product.BoardFormat, product.Socket, product.DDR5)
+                    )
+                elif isinstance(product, PowerSupply):
+                    cursor.execute(
+                        "INSERT INTO power_supply (hardware_id, wattage, certification, is_modular, power_supply_length) VALUES (%s, %s, %s, %s, %s)",
+                        (hardware_id, product.Wattage, product.Certification, product.IsModular, product.Length)
+                    )
+                elif isinstance(product, Ram):
+                    cursor.execute(
+                        "INSERT INTO ram (hardware_id, ddr5, frequency, capacity, count) VALUES (%s, %s, %s, %s, %s)",
+                        (hardware_id, product.DDR5, product.Frequency, product.Capacity, product.Count)
+                    )
+                elif isinstance(product, SSD):
+                    cursor.execute(
+                        "INSERT INTO ssd (hardware_id, capacity, read_speed, write_speed) VALUES (%s, %s, %s, %s)",
+                        (hardware_id, product.Capacity, product.ReadSpeed, product.WriteSpeed)
+                    )
+
+        # Commit the transaction
+        conn.commit()
+        print("Transaction committed successfully")
+
+    except Exception as error:
+        # Rollback the transaction in case of any exception
+        conn.rollback()
+        print(error)
+        print("Transaction rolled back")
+
+    finally:
+        # Close the cursor and connection
+        cursor.close()
+        conn.close()
 
 
 app = Flask(__name__)
@@ -374,15 +469,17 @@ app = Flask(__name__)
 
 @app.route('/update-hardware-database')
 def update_hardware_data():
-    # collect_data()
+    collect_data()
 
-    # process_collected_data()
+    hardware_list = process_collected_data()
 
-    # update_database()
+    update_database(hardware_list)
 
     return "Success"
 
 
 if __name__ == '__main__':
     # app.run(debug=True, port=3000, host="127.0.0.1")
-    print(*process_collected_data(), sep='\n')
+    h = process_collected_data()
+
+    update_database(h)
