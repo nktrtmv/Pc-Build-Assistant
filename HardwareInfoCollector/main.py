@@ -4,6 +4,7 @@ import json
 import zipfile
 from selenium.webdriver.chrome.service import Service
 from config import *
+from flask import Flask
 
 
 def get_chromedriver(manifest, background, use_proxy=False, user_agent=None, driver_number=0):
@@ -42,7 +43,7 @@ def collect_data():
                   ("./hardware_data/ssd.txt", 4)]
 
     k = 0
-    for file_info in files_info[5:]:
+    for file_info in files_info:
         if k == 0:
             parsers[k].browser = get_chromedriver(manifest=config.manifest_json_1,
                                                   background=config.background_js_1,
@@ -76,19 +77,28 @@ def process_collected_data():
                   ("./hardware_data/ssd.txt", 4)]
 
     for file_info in files_info:
-
         with open(file_info[0], "r") as txt_file:
             with open(f"./collected_info/{file_info[0].split('/')[2].split('.')[0]}.json", 'w') as json_file:
                 txt_data = txt_file.readlines()
                 json_data = json.load(json_file)
 
 
-def update_data():
+def update_database():
     return
 
-def main():
-    collect_data()
+
+app = Flask(__name__)
+
+@app.route('/update-hardware-database')
+def update_hardware_data():
+    # collect_data()
+
+    # process_collected_data()
+
+    # update_database()
+
+    return "Success"
 
 
 if __name__ == '__main__':
-    main()
+    app.run(debug=True, port=3000, host="127.0.0.1")

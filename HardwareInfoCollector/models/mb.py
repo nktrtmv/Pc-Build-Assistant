@@ -2,13 +2,14 @@ from models.hardware import *
 
 class MotherBoard(Hardware):
     TargetCpu: str
-    Format: str
+    BoardFormat: str
     Socket: str
-    RamType: int
+    DDR5: bool
 
-    def __init__(self, target: str, model: str):
-        super().__init__(model)
-        self.TargetCpu = target
-
-    def __str__(self):
-        return f'{self.TargetCpu} {self.Model}'
+    def __init__(self, model: str, product_type: int, price: int, link: str,
+                 target_cpu: str, board_format: str, socket: str, ddr5: bool):
+        super().__init__(product_type, model, price, link)
+        self.TargetCpu = target_cpu
+        self.BoardFormat = board_format
+        self.Socket = socket
+        self.DDR5 = ddr5
