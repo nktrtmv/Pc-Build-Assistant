@@ -16,3 +16,7 @@ class Case(Hardware):
         self.MaxGpuLength = max_gpu_length
         self.MaxAirHeight = max_air_height
         self.MaxAioFansCount = max_aio_fans_count
+
+    def __str__(self):
+        return f'{self.ProductType} {self.Model} {self.Price} {self.Link} {self.MotherBoardFormat} ' \
+               f'{self.MaxPowerSupplyLength} {self.MaxGpuLength} {self.MaxAirHeight} {self.MaxAioFansCount}'

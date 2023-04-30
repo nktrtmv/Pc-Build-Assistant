@@ -8,3 +8,7 @@ class AirCooling(Hardware):
         super().__init__(product_type, model, price, link)
         self.TDP = tdp
         self.Height = height
+
+    def __str__(self):
+        return f'{self.ProductType} {self.Model} {self.Price} {self.Link} {self.TDP} {self.Height}'
+    

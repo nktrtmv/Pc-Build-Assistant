@@ -16,3 +16,7 @@ class CPU(Hardware):
         self.IntegratedGraphics = integrated_graphics
         self.TDP = tdp
         self.Socket = socket
+
+    def __str__(self):
+        return f'{self.ProductType} {self.Model} {self.Price} {self.Link} {self.Manufacturer} ' \
+               f'{self.DDR5} {self.IntegratedGraphics} {self.TDP} {self.Socket}'

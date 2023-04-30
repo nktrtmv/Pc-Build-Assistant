@@ -10,3 +10,7 @@ class GPU(Hardware):
         super().__init__(product_type, model, price, link)
         self.Length = length
         self.RequiredPowerSupplyWattage = required_power_supply_wattage
+
+    def __str__(self):
+        return f'{self.ProductType} {self.Model} {self.Price} {self.Link} {self.Length} ' \
+               f'{self.RequiredPowerSupplyWattage}'

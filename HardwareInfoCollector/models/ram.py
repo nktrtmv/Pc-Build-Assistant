@@ -14,3 +14,7 @@ class Ram(Hardware):
         self.Frequency = frequency
         self.Capacity = capacity
         self.Count = count
+
+    def __str__(self):
+        return f'{self.ProductType} {self.Model} {self.Price} {self.Link} {self.DDR5} ' \
+               f'{self.Frequency} {self.Capacity} {self.Count}'

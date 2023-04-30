@@ -14,3 +14,7 @@ class PowerSupply(Hardware):
         self.Certification = certification
         self.IsModular = is_modular
         self.Length = length
+
+    def __str__(self):
+        return f'{self.ProductType} {self.Model} {self.Price} {self.Link} {self.Wattage} ' \
+               f'{self.Certification} {self.IsModular} {self.Length}'

@@ -12,3 +12,7 @@ class SSD(Hardware):
         self.Capacity = capacity
         self.ReadSpeed = read_speed
         self.WriteSpeed = write_speed
+
+    def __str__(self):
+        return f'{self.ProductType} {self.Model} {self.Price} {self.Link} {self.Capacity} ' \
+               f'{self.ReadSpeed} {self.WriteSpeed}'
