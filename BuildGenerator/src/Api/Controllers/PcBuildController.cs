@@ -25,13 +25,14 @@ public class PcBuildController : ControllerBase
         BuildGenerationRequest request,
         CancellationToken token)
     {
-        var generateBuildResult = await _mediator.Send(new GenerateBuildCommand(request.Budget, request.Type), token);
+        var generateBuildResult = await _mediator.Send(
+            new GenerateBuildCommand(request.Budget, request.Type), 
+            token);
 
         if (generateBuildResult.Build is null)
         {
             return BadRequest("Unknown error");
         }
-
 
         return Ok(generateBuildResult.Build);
     }

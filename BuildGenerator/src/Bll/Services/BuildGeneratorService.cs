@@ -1,5 +1,7 @@
 using Bll.Models.BuildTypes;
 using Bll.Models.BuildTypes.Enums;
+using Bll.Models.Hardware;
+using Bll.Models.Hardware.Abstractions;
 using Bll.RepositoryInterfaces;
 using Bll.Services.Interfaces;
 

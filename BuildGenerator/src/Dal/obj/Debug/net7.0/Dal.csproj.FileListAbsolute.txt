@@ -1,0 +1,15 @@
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/bin/Debug/net7.0/Dal.deps.json
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/bin/Debug/net7.0/Dal.dll
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/bin/Debug/net7.0/Dal.pdb
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/bin/Debug/net7.0/Bll.dll
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/bin/Debug/net7.0/Bll.pdb
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.csproj.AssemblyReference.cache
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.AssemblyInfoInputs.cache
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.AssemblyInfo.cs
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.csproj.CoreCompileInputs.cache
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.csproj.CopyComplete
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.dll
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/obj/Debug/net7.0/refint/Dal.dll
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.pdb
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/obj/Debug/net7.0/ref/Dal.dll
