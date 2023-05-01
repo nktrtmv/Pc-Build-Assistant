@@ -1035,6 +1035,19 @@
             "rid": "win"
           }
         }
+      },
+      "Bll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0-preview.3.23174.8"
+        },
+        "compile": {
+          "bin/placeholder/Bll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bll.dll": {}
+        }
       }
     }
   },
@@ -2661,10 +2674,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Bll/1.0.0": {
+      "type": "project",
+      "path": "../Bll/Bll.csproj",
+      "msbuildProject": "../Bll/Bll.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Bll >= 1.0.0",
       "Dapper >= 2.0.123",
       "FluentMigrator >= 3.3.2",
       "FluentMigrator.Runner >= 3.3.2",
@@ -2700,7 +2719,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/Bll.csproj": {
+              "projectPath": "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/Bll.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

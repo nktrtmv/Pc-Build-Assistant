@@ -4,12 +4,22 @@ namespace Bll.Models.Hardware;
 
 public class Aio : Cooling
 {
-    public override double Price { get; set; }
-    public override string? Link { get; set; }
-    public override string? Manufacturer { get; set; }
-    public override string? Socket { get; set; }
-    public override int Tdp { get; set; }
-    public override string? Model { get; set; }
+    public sealed override double Price { get; set; }
+    public sealed override string? Link { get; set; }
+    public sealed override string? Model { get; set; }
     
     public int FansCount { get; set; }
+
+    public Aio()
+    {
+        
+    }
+
+    public Aio(double price, string link, string model, int fansCount)
+    {
+        Price = price;
+        Link = link;
+        Model = model;
+        FansCount = fansCount;
+    }
 }

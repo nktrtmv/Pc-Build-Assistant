@@ -29,6 +29,7 @@ public static class Postgres
         mapper.MapComposite<PowerSupplyEntity>("power_supply_type", s_translator);
         mapper.MapComposite<RamEntity>("ram_type", s_translator);
         mapper.MapComposite<SsdEntity>("ssd_type", s_translator);
+        mapper.MapComposite<HardwareEntity>("hardware_type", s_translator);
     }
 
     /// <summary>

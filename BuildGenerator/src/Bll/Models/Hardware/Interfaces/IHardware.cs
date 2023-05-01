@@ -11,12 +11,7 @@ public interface IHardware
     /// Link from the E-market of the hardware.
     /// </summary>
     string? Link { get; set; }
-    
-    /// <summary>
-    /// Manufacturer of the hardware.
-    /// </summary>
-    string? Manufacturer { get; set; }
-    
+
     /// <summary>
     /// Model of the hardware.
     /// </summary>

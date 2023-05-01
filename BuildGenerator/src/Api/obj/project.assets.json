@@ -1140,6 +1140,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Bll": "1.0.0",
           "Dapper": "2.0.123",
           "FluentMigrator": "3.3.2",
           "FluentMigrator.Runner": "3.3.2",
