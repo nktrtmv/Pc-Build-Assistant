@@ -1,42 +1,37 @@
 using Bll.Models.BuildTypes;
 using Bll.Models.BuildTypes.Enums;
-using Bll.Models.BuildTypes.Interfaces;
+using Bll.RepositoryInterfaces;
 using Bll.Services.Interfaces;
 
 namespace Bll.Services;
 
 public class BuildGeneratorService : IBuildGeneratorService
 {
-    public IBuild? GenerateBuild(int budget, BuildType type) => type switch
-    {
-        BuildType.GameBuild => GenerateGameBuild(budget),
-        BuildType.GraphicsBuild => GenerateGraphicsBuild(budget),
-        BuildType.ItBuild => GenerateItBuild(budget),
-        BuildType.OfficeBuild => GenerateOfficeBuild(budget),
-        _ => null
-    };
+    private readonly IHardwareRepository _hardwareRepository;
     
-    private static GameBuild GenerateGameBuild(int budget)
+    public BuildGeneratorService(IHardwareRepository hardwareRepository)
     {
-        var build = new GameBuild(budget);
-        return build;
+        _hardwareRepository = hardwareRepository;
     }
     
-    private static GraphicsBuild GenerateGraphicsBuild(int budget)
+    public async Task<GamePcBuild> GenerateGamePcBuild(int budget, CancellationToken token)
     {
-        var build = new GraphicsBuild(budget);
-        return build;
+        var pcParts = await _hardwareRepository.QueryHardware(token);
+        throw new NotImplementedException();
     }
     
-    private static ItBuild GenerateItBuild(int budget)
+    public async Task<GraphicsPcBuild> GenerateGraphicsPcBuild(int budget, CancellationToken token)
     {
-        var build = new ItBuild(budget);
-        return build;
+        throw new NotImplementedException();
     }
     
-    private static OfficeBuild GenerateOfficeBuild(int budget)
+    public async Task<ItPcBuild> GenerateItPcBuild(int budget, CancellationToken token)
     {
-        var build = new OfficeBuild(budget);
-        return build;
+        throw new NotImplementedException();
+    }
+    
+    public async Task<OfficePcBuild> GenerateOfficePcBuild(int budget, CancellationToken token)
+    {
+        throw new NotImplementedException();
     }
 }

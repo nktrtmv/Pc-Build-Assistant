@@ -1,8 +1,6 @@
-using Bll.Models.Hardware.Interfaces;
-
 namespace Bll.Models.Hardware;
 
-public class PowerSupply : IHardware
+public class PowerSupply : Abstractions.Hardware
 {
     public double Price { get; set; }
     public string? Link { get; set; }

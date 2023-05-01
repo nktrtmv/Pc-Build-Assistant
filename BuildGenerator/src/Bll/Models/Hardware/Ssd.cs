@@ -1,9 +1,6 @@
-using Bll.Models.Hardware.AbstractClasses;
-using Bll.Models.Hardware.Interfaces;
-
 namespace Bll.Models.Hardware;
 
-public class Ssd : IHardware
+public class Ssd : Abstractions.Hardware
 {
     public double Price { get; set; }
     public string? Link { get; set; }

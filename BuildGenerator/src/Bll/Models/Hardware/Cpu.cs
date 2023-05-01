@@ -1,8 +1,6 @@
-using Bll.Models.Hardware.Interfaces;
-
 namespace Bll.Models.Hardware;
 
-public class Cpu : IHardware
+public class Cpu : Abstractions.Hardware
 {
     public double Price { get; set; }
     public string? Link { get; set; }

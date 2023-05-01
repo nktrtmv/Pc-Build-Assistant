@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "bo03XZhoZg8fltAFGE/6dwi4PmmFuVG7Lgjyz8y3RfL2UT+B5tkGySfBVq1Pgslk5UxjMNhp/MLIuH4PpG617Q==",
+  "dgSpecHash": "pPqcwQU9ZNaF+h2U6NXcdySGIwSpYvBvJZsXomh7WYBAJ1tRqqkd1EhXI9U6JzWWSEzoE9llwoM6t7GmNahDbg==",
   "success": true,
   "projectFilePath": "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/Bll.csproj",
   "expectedPackageFiles": [
+    "/Users/nktrtmv/.nuget/packages/mediatr/12.0.1/mediatr.12.0.1.nupkg.sha512",
+    "/Users/nktrtmv/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/nktrtmv/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0-preview.3.23174.8/microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.3.23174.8.nupkg.sha512"
   ],
   "logs": []

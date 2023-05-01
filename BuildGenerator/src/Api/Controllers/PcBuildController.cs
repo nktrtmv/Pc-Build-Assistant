@@ -1,6 +1,9 @@
+using Bll.Commands;
+using Bll.Models;
 using Bll.Services.Interfaces;
 using Generator.Requests;
 using Generator.Responses;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Generator.Controllers;
@@ -8,23 +11,28 @@ namespace Generator.Controllers;
 [Route("[controller]")]
 public class PcBuildController : ControllerBase
 {
-    private readonly IBuildGeneratorService _buildGeneratorService;
-    
-    public PcBuildController(IBuildGeneratorService buildGeneratorService)
+    private readonly IMediator _mediator;
+
+    public PcBuildController(IMediator mediator)
     {
-        _buildGeneratorService = buildGeneratorService;
+        _mediator = mediator;
     }
-    
+
     [HttpPost("generate")]
     [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(BuildGenerationResponse))]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public IActionResult GenerateBuild(BuildGenerationRequest request)
+    public async Task<IActionResult> GenerateBuild(
+        BuildGenerationRequest request,
+        CancellationToken token)
     {
-        var build = _buildGeneratorService.GenerateBuild(request.Budget, request.Type);
-        return build switch
+        var generateBuildResult = await _mediator.Send(new GenerateBuildCommand(request.Budget, request.Type), token);
+
+        if (generateBuildResult.Build is null)
         {
-            null => BadRequest("Unknown error"),
-            _ => Ok(build)
-        };
+            return BadRequest("Unknown error");
+        }
+
+
+        return Ok(generateBuildResult.Build);
     }
 }

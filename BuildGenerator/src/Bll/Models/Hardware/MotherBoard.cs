@@ -1,8 +1,6 @@
-using Bll.Models.Hardware.Interfaces;
-
 namespace Bll.Models.Hardware;
 
-public class MotherBoard : IHardware
+public class MotherBoard : Abstractions.Hardware
 {
     public double Price { get; set; }
     public string? Link { get; set; }

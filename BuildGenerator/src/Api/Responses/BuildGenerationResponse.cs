@@ -1,5 +1,5 @@
-using Bll.Models.BuildTypes.Interfaces;
+using Bll.Models.BuildTypes.Abstractions;
 
 namespace Generator.Responses;
 
-public record BuildGenerationResponse(IBuild Build);
+public record BuildGenerationResponse(PcBuild PcBuild);

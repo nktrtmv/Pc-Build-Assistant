@@ -1,4 +1,4 @@
-using Bll.Models.Hardware.AbstractClasses;
+using Bll.Models.Hardware.Abstractions;
 
 namespace Bll.Models.Hardware;
 

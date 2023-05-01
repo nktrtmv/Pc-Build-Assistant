@@ -1,9 +1,15 @@
+using Bll.Models.BuildTypes;
 using Bll.Models.BuildTypes.Enums;
-using Bll.Models.BuildTypes.Interfaces;
 
 namespace Bll.Services.Interfaces;
 
 public interface IBuildGeneratorService
 {
-    public IBuild? GenerateBuild(int budget, BuildType type);
+    Task<GamePcBuild> GenerateGamePcBuild(int budget, CancellationToken token);
+
+    Task<GraphicsPcBuild> GenerateGraphicsPcBuild(int budget, CancellationToken token);
+
+    Task<ItPcBuild> GenerateItPcBuild(int budget, CancellationToken token);
+
+    Task<OfficePcBuild> GenerateOfficePcBuild(int budget, CancellationToken token);
 }

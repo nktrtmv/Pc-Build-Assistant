@@ -1,5 +1,6 @@
 using Bll.Models.Hardware;
-using Bll.Models.Hardware.Interfaces;
+using Bll.Models.Hardware.Abstractions;
+using Bll.RepositoryInterfaces;
 using Dal.Entities;
 using Dal.Enums;
 using Dal.Repositories.Interfaces;
@@ -15,12 +16,12 @@ public class HardwareRepository : BaseRepository, IHardwareRepository
     {
     }
 
-    public async Task<IEnumerable<IHardware>> QueryHardware(CancellationToken token)
+    public async Task<IEnumerable<Hardware>> QueryHardware(CancellationToken token)
     {
         await using var connection = await GetAndOpenConnection();
         const string hardwareSqlQuery = "select id, product_type, model, price, link from hardware";
 
-        var hardware = new List<IHardware>(capacity: 200);
+        var hardware = new List<Hardware>(capacity: 200);
         
         var hardwareQuery = await connection.QueryAsync<HardwareEntity>(
             new CommandDefinition(

@@ -1,8 +1,6 @@
-using Bll.Models.Hardware.Interfaces;
-
 namespace Bll.Models.Hardware;
 
-public class Case : IHardware
+public class Case : Abstractions.Hardware
 {
     public double Price { get; set; }
     public string? Link { get; set; }

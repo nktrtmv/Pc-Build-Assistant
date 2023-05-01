@@ -1,6 +1,6 @@
-namespace Bll.Models.Hardware.Interfaces;
+namespace Bll.Models.Hardware.Abstractions;
 
-public interface IHardware
+public abstract class Hardware
 { 
     /// <summary>
     /// Price of the hardware.
