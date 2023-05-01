@@ -8,6 +8,9 @@ public class CreateRamType : Migration
     public override void Up()
     {
         Execute.Sql(@"
+DO $$
+    BEGIN
+        IF NOT EXISTS (SELECT 1 FROM pg_type WHERE typname = 'ram_type') THEN
             CREATE TYPE ram_type AS (
                 id INTEGER,
                 hardware_id INTEGER,
@@ -16,11 +19,18 @@ public class CreateRamType : Migration
                 capacity INTEGER,
                 count INTEGER
             );
-        ");
+        END IF;
+    END
+$$;");
     }
 
     public override void Down()
     {
-        Execute.Sql("DROP TYPE IF EXISTS ram_type;");
+        Execute.Sql(@"
+DO $$
+    BEGIN
+        DROP TYPE IF EXISTS ram_type;
+    END
+$$;");
     }
 }

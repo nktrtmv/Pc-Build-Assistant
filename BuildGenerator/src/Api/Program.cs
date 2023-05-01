@@ -1,11 +1,15 @@
 using Bll.Extensions;
-using Bll.Services;
-using Bll.Services.Interfaces;
-using Dal.Settings;
+using Dal.Extensions;
+using FluentValidation.AspNetCore;
+using Generator.NamingPolicies;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.PropertyNamingPolicy = new SnakeCaseNamingPolicy();
+    });
 
 builder.Services.AddEndpointsApiExplorer();
 
@@ -14,11 +18,16 @@ builder.Services.AddSwaggerGen(o =>
     o.CustomSchemaIds(x => x.FullName);
 });
 
-builder.Services
-    .AddBll();
+builder.Services.AddFluentValidation(conf =>
+{
+    conf.RegisterValidatorsFromAssembly(typeof(Program).Assembly);
+    conf.AutomaticValidationEnabled = true;
+});
 
 builder.Services
-    .Configure<DalOptions>(builder.Configuration.GetSection(nameof(DalOptions)));
+    .AddBll()
+    .AddDalInfrastructure(builder.Configuration)
+    .AddDalRepositories();
 
 var app = builder.Build();
 
@@ -28,10 +37,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
 app.MapControllers();
+
+app.MigrateUp();
 
 app.Run();

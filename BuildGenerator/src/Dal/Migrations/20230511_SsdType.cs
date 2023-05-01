@@ -8,6 +8,9 @@ public class CreateSsdType : Migration
     public override void Up()
     {
         Execute.Sql(@"
+DO $$
+    BEGIN
+        IF NOT EXISTS (SELECT 1 FROM pg_type WHERE typname = 'ssd_type') THEN
             CREATE TYPE ssd_type AS (
                 id INTEGER,
                 hardware_id INTEGER,
@@ -15,11 +18,18 @@ public class CreateSsdType : Migration
                 read_speed INTEGER,
                 write_speed INTEGER
             );
-        ");
+        END IF;
+    END
+$$;");
     }
 
     public override void Down()
     {
-        Execute.Sql("DROP TYPE IF EXISTS ssd_type;");
+        Execute.Sql(@"
+DO $$
+    BEGIN
+        DROP TYPE IF EXISTS ssd_type;
+    END
+$$;");
     }
 }
