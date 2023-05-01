@@ -5,6 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0862e8bb-2d3f-4fb0-aea4-d88a636c7b8f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/Entities/HardwareEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/Enums/HardwareTypes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/Migrations/20230512_HardwareType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/AbstractClasses/Cooling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/AbstractClasses/Cooling.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Aio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Aio.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/AirCooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/AirCooler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Case.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Case.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Gpu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Gpu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Interfaces/IHardware.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Interfaces/IHardware.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/MotherBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/MotherBoard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/PowerSupply.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/PowerSupply.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Ram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Ram.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Ssd.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Ssd.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/Dal.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/Dal.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/Infrastructure/Postgres.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/Infrastructure/Postgres.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/Repositories/HardwareRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/Repositories/HardwareRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Dal.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Dal.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HardwareDatabase/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../HardwareDatabase/.idea/HardwarwDataBase.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../HardwareDatabase/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/.idea/dataSources.xml" afterDir="false" />
@@ -82,7 +107,8 @@
       <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/pg_xact/0000" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/pg_xact/0000" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HardwareDatabase/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/init.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HardwareDatabase/init_new.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,21 +149,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "story/generator/0.0.1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;story/generator/0.0.1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="HardwareInfoCollector" />
@@ -183,7 +209,9 @@
       <workItem from="1679877495783" duration="3394000" />
       <workItem from="1680226464761" duration="20228000" />
       <workItem from="1680279906721" duration="1919000" />
-      <workItem from="1682078408600" duration="30777000" />
+      <workItem from="1682078408600" duration="30823000" />
+      <workItem from="1682962655161" duration="155000" />
+      <workItem from="1682973521346" duration="968000" />
     </task>
     <servers />
   </component>

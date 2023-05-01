@@ -412,7 +412,7 @@ def update_database(hardware_list: []):
                     )
                 elif isinstance(product, Case):
                     cursor.execute(
-                        "INSERT INTO pc_case (hardware_id, mother_board_format, max_power_supply_length, max_gpu_length, max_air_height, max_aio_fans_count) VALUES (%s, %s, %s, %s, %s, %s)",
+                        "INSERT INTO pc_case (hardware_id, motherboard_format, max_power_supply_length, max_gpu_length, max_air_height, max_aio_fans_count) VALUES (%s, %s, %s, %s, %s, %s)",
                         (hardware_id, product.MotherBoardFormat, product.MaxPowerSupplyLength, product.MaxGpuLength,
                          product.MaxAirHeight, product.MaxAioFansCount)
                     )
