@@ -1,4 +1,4 @@
-using Generator.Bll.Models.BuildTypes.Interfaces;
+using Bll.Models.BuildTypes.Interfaces;
 
 namespace Generator.Responses;
 

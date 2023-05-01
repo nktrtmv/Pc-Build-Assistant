@@ -1,4 +1,4 @@
-using Generator.Bll.Models.BuildTypes.Enums;
+using Bll.Models.BuildTypes.Enums;
 
 namespace Generator.Requests;
 

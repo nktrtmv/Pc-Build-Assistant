@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bo03XZhoZg8fltAFGE/6dwi4PmmFuVG7Lgjyz8y3RfL2UT+B5tkGySfBVq1Pgslk5UxjMNhp/MLIuH4PpG617Q==",
+  "success": true,
+  "projectFilePath": "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/Bll.csproj",
+  "expectedPackageFiles": [
+    "/Users/nktrtmv/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0-preview.3.23174.8/microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.3.23174.8.nupkg.sha512"
+  ],
+  "logs": []
+}

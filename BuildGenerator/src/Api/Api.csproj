@@ -12,8 +12,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Dal\Entities" />
-      <Folder Include="Dal\Repositories\Interfaces" />
+      <ProjectReference Include="..\Bll\Bll.csproj" />
+      <ProjectReference Include="..\Dal\Dal.csproj" />
     </ItemGroup>
 
 </Project>

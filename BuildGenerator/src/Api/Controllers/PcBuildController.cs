@@ -1,4 +1,4 @@
-using Generator.Bll.Services.Interfaces;
+using Bll.Services.Interfaces;
 using Generator.Requests;
 using Generator.Responses;
 using Microsoft.AspNetCore.Mvc;
@@ -15,7 +15,7 @@ public class PcBuildController : ControllerBase
         _buildGeneratorService = buildGeneratorService;
     }
     
-    [HttpGet("generate")]
+    [HttpPost("generate")]
     [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(BuildGenerationResponse))]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public IActionResult GenerateBuild(BuildGenerationRequest request)

@@ -1,5 +1,7 @@
-using Generator.Bll.Services;
-using Generator.Bll.Services.Interfaces;
+using Bll.Extensions;
+using Bll.Services;
+using Bll.Services.Interfaces;
+using Dal.Settings;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,7 +14,11 @@ builder.Services.AddSwaggerGen(o =>
     o.CustomSchemaIds(x => x.FullName);
 });
 
-builder.Services.AddScoped<IBuildGeneratorService, BuildGeneratorService>();
+builder.Services
+    .AddBll();
+
+builder.Services
+    .Configure<DalOptions>(builder.Configuration.GetSection(nameof(DalOptions)));
 
 var app = builder.Build();
 
