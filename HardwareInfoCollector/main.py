@@ -488,3 +488,7 @@ def update_hardware_data():
 
 if __name__ == '__main__':
     app.run(debug=True, port=3000, host="127.0.0.1")
+
+    # hardware_list = process_collected_data()
+    #
+    # update_database(hardware_list)

@@ -10,10 +10,10 @@ public abstract class Hardware
     /// <summary>
     /// Link from the E-market of the hardware.
     /// </summary>
-    string? Link { get; set; }
+    string Link { get; set; } = string.Empty;
 
     /// <summary>
     /// Model of the hardware.
     /// </summary>
-    string? Model { get; set; }
+    string Model { get; set; } = string.Empty;
 }

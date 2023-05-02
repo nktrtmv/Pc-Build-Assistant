@@ -4,5 +4,5 @@ namespace Bll.RepositoryInterfaces;
 
 public interface IHardwareRepository
 {
-    Task<IEnumerable<Hardware>> QueryHardware(CancellationToken token);
+    Task<List<Hardware>> QueryHardware(CancellationToken token);
 }

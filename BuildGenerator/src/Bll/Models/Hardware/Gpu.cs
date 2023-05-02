@@ -3,8 +3,8 @@ namespace Bll.Models.Hardware;
 public class Gpu : Abstractions.Hardware
 {
     public double Price { get; set; }
-    public string? Link { get; set; }
-    public string? Model { get; set; }
+    public string Link { get; set; } = string.Empty;
+    public string Model { get; set; } = string.Empty;
 
 
     public int Length { get; set; }

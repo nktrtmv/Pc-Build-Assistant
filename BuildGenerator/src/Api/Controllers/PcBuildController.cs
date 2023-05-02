@@ -1,6 +1,4 @@
 using Bll.Commands;
-using Bll.Models;
-using Bll.Services.Interfaces;
 using Generator.Requests;
 using Generator.Responses;
 using MediatR;
@@ -25,15 +23,64 @@ public class PcBuildController : ControllerBase
         BuildGenerationRequest request,
         CancellationToken token)
     {
-        var generateBuildResult = await _mediator.Send(
-            new GenerateBuildCommand(request.Budget, request.Type), 
-            token);
-
-        if (generateBuildResult.Build is null)
+        try
         {
-            return BadRequest("Unknown error");
-        }
+            var generateBuildResult = await _mediator.Send(
+                new GenerateBuildCommand(request.Budget, request.Type),
+                token);
+            if (generateBuildResult.Build is null)
+            {
+                return BadRequest("Unknown error");
+            }
 
-        return Ok(generateBuildResult.Build);
+            var pcBuild = new PcBuild(
+                new Hardware(
+                    generateBuildResult.Build.Cpu.Price,
+                    generateBuildResult.Build.Cpu.Link,
+                    generateBuildResult.Build.Cpu.Model),
+                new Hardware(
+                    generateBuildResult.Build.Motherboard.Price,
+                    generateBuildResult.Build.Motherboard.Link,
+                    generateBuildResult.Build.Motherboard.Model),
+                new Hardware(
+                    generateBuildResult.Build.Case.Price,
+                    generateBuildResult.Build.Case.Link,
+                    generateBuildResult.Build.Case.Model),
+                generateBuildResult.Build.Gpu is null
+                    ? null
+                    : new Hardware(
+                        generateBuildResult.Build.Gpu.Price,
+                        generateBuildResult.Build.Gpu.Link,
+                        generateBuildResult.Build.Gpu.Model),
+                new Hardware(
+                    generateBuildResult.Build.Cooler.Price,
+                    generateBuildResult.Build.Cooler.Link,
+                    generateBuildResult.Build.Cooler.Model),
+                new Hardware(
+                    generateBuildResult.Build.Ram.Price,
+                    generateBuildResult.Build.Ram.Link,
+                    generateBuildResult.Build.Ram.Model),
+                new Hardware(
+                    generateBuildResult.Build.Storage.Price,
+                    generateBuildResult.Build.Storage.Link,
+                    generateBuildResult.Build.Storage.Model),
+                new Hardware(
+                    generateBuildResult.Build.PowerSupply.Price,
+                    generateBuildResult.Build.PowerSupply.Link,
+                    generateBuildResult.Build.PowerSupply.Model)
+            );
+
+            var totalPrice = pcBuild.Price();
+
+            var response = new BuildGenerationResponse(
+                pcBuild,
+                totalPrice
+            );
+            return Ok(response);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
     }
 }

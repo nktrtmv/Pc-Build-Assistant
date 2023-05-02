@@ -3,14 +3,14 @@ namespace Bll.Models.Hardware;
 public class Case : Abstractions.Hardware
 {
     public double Price { get; set; }
-    public string? Link { get; set; }
-    public string? Model { get; set; }
+    public string Link { get; set; } = string.Empty;
+    public string Model { get; set; } = string.Empty;
 
-    public string? MotherBoardFormat { get; set; }
-    public int? MaxPowerSupplyLength { get; set; }
-    public int? MaxGpuLength { get; set; }
-    public int? MaxAirHeight { get; set; }
-    public int? MaxAioFansCount { get; set; }
+    public string MotherBoardFormat { get; set; }  = string.Empty;
+    public int MaxPowerSupplyLength { get; set; }
+    public int MaxGpuLength { get; set; }
+    public int MaxAirHeight { get; set; }
+    public int MaxAioFansCount { get; set; }
 
     public Case()
     {

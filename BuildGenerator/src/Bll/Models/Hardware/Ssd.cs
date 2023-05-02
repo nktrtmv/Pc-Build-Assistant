@@ -3,8 +3,8 @@ namespace Bll.Models.Hardware;
 public class Ssd : Abstractions.Hardware
 {
     public double Price { get; set; }
-    public string? Link { get; set; }
-    public string? Model { get; set; }
+    public string Link { get; set; } = string.Empty;
+    public string Model { get; set; } = string.Empty;
 
     public int Capacity { get; set; }
     public int ReadSpeed { get; set; }

@@ -5,111 +5,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0862e8bb-2d3f-4fb0-aea4-d88a636c7b8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/Entities/HardwareEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/Enums/HardwareTypes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/Migrations/20230512_HardwareType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Api.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/AbstractClasses/Cooling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/AbstractClasses/Cooling.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/Controllers/PcBuildController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Controllers/PcBuildController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/Responses/BuildGenerationResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Responses/BuildGenerationResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Bll.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Bll.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Bll.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Bll.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Dal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Dal.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Dal.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Dal.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/ref/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/ref/Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/refint/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/refint/Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Abstractions/Cooling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Abstractions/Cooling.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Abstractions/Hardware.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Abstractions/Hardware.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Aio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Aio.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/AirCooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/AirCooler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Case.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Case.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Cpu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Cpu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Gpu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Gpu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Interfaces/IHardware.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Interfaces/IHardware.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/MotherBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/MotherBoard.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/PowerSupply.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/PowerSupply.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Ram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Ram.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Ssd.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Ssd.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/Dal.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/Dal.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/Infrastructure/Postgres.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/Infrastructure/Postgres.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/RepositoryInterfaces/IHardwareRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/RepositoryInterfaces/IHardwareRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Services/BuildGeneratorService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Services/BuildGeneratorService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/bin/Debug/net7.0/Bll.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/bin/Debug/net7.0/Bll.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/bin/Debug/net7.0/Bll.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/bin/Debug/net7.0/Bll.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/ref/Bll.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/ref/Bll.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/refint/Bll.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/refint/Bll.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/Repositories/HardwareRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/Repositories/HardwareRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Dal.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Dal.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/.idea/HardwarwDataBase.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/1/1259" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/1/1259" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/1/13375" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/1/13375" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/1/2619" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/1/2619" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/1/2619_vm" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/1/2619_vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/1/2696" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/1/2696" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/1/2840" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/1/2840" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/1/2841" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/1/2841" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/1/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/1/pg_internal.init" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/1247" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/1247" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/1249" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/1249" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/1259" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/1259" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/13375" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/13375" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/16385" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/16385" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/16386" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/16386" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/16390" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/16390" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/16392" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/16392" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/16393" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/16397" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/16398" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/16399" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/16399" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2224" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2224" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2579" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2579" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2604" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2604" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2606" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2606" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2608" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2608" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2608_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2608_fsm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2610" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2610" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2610_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2610_fsm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2610_vm" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2610_vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2619" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2619" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2619_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2619_fsm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2619_vm" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2619_vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2620" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2620" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2656" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2656" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2657" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2657" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2658" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2658" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2659" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2659" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2662" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2662" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2663" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2663" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2664" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2664" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2665" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2665" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2666" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2666" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2667" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2667" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2673" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2673" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2674" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2674" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2678" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2678" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2679" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2679" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2696" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2696" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2699" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2699" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2701" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2701" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2702" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2702" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2703" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2703" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2704" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2704" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2840" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2840" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2840_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2840_fsm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2840_vm" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2840_vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2841" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/2841" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/3455" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/3455" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/5002" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/5002" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/16384/pg_internal.init" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/4/13375" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/4/13375" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/4/2619" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/4/2619" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/5/13375" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/5/13375" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/5/2619" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/5/2619" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/5/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/base/5/pg_internal.init" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/global/1260" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/global/1260" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/global/pg_control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/global/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/global/pg_internal.init" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/pg_stat/pgstat.stat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/pg_wal/000000010000000000000001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/pg_xact/0000" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/db/pgdata/pg_xact/0000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/init.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/init_new.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Bll.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Bll.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Bll.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Bll.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Dal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Dal.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Dal.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Dal.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/ref/Dal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/ref/Dal.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/refint/Dal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/refint/Dal.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/.idea/dataSources/dfa0760c-a503-4ee9-bfe7-46e75a31eaf4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/.idea/dataSources/dfa0760c-a503-4ee9-bfe7-46e75a31eaf4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/.idea/dataSources/dfa0760c-a503-4ee9-bfe7-46e75a31eaf4/storage_v2/_src_/database/hardware.6OX3Bg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/.idea/dataSources/dfa0760c-a503-4ee9-bfe7-46e75a31eaf4/storage_v2/_src_/database/hardware.6OX3Bg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collected_info/cpu.json" beforeDir="false" afterPath="$PROJECT_DIR$/collected_info/cpu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collected_info/mb.json" beforeDir="false" afterPath="$PROJECT_DIR$/collected_info/mb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware_data/case.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_data/case.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware_data/cpu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_data/cpu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware_data/gpu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_data/gpu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardware_data/mb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hardware_data/mb.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,6 +160,11 @@
       <workItem from="1682078408600" duration="30823000" />
       <workItem from="1682962655161" duration="155000" />
       <workItem from="1682973521346" duration="968000" />
+      <workItem from="1682985317023" duration="42000" />
+      <workItem from="1683034790289" duration="1087000" />
+      <workItem from="1683041294282" duration="161000" />
+      <workItem from="1683043382610" duration="70000" />
+      <workItem from="1683043536118" duration="768000" />
     </task>
     <servers />
   </component>
@@ -223,6 +176,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HardwareInfoCollector$main.coverage" NAME="main Coverage Results" MODIFIED="1675415674985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1682873724680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1683045063810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

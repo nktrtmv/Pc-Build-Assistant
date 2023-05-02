@@ -5,8 +5,8 @@ namespace Bll.Models.Hardware;
 public class AirCooler : Cooling
 {
     public sealed override double Price { get; set; }
-    public sealed override string? Link { get; set; }
-    public sealed override string? Model { get; set; }
+    public sealed override string Link { get; set; } = string.Empty;
+    public sealed override string Model { get; set; } = string.Empty;
     
     public int Tdp { get; set; }
     public int Height { get; set; }
@@ -16,7 +16,7 @@ public class AirCooler : Cooling
         
     }
     
-    public AirCooler(double price, string? link, string? model, int tdp, int height)
+    public AirCooler(double price, string link, string model, int tdp, int height)
     {
         Price = price;
         Link = link;

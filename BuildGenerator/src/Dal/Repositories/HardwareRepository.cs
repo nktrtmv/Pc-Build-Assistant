@@ -16,7 +16,7 @@ public class HardwareRepository : BaseRepository, IHardwareRepository
     {
     }
 
-    public async Task<IEnumerable<Hardware>> QueryHardware(CancellationToken token)
+    public async Task<List<Hardware>> QueryHardware(CancellationToken token)
     {
         await using var connection = await GetAndOpenConnection();
         const string hardwareSqlQuery = "select id, product_type, model, price, link from hardware";
@@ -107,7 +107,7 @@ select id, hardware_id, motherboard_format, max_power_supply_length, max_gpu_len
                 
                 case (int)HardwareTypes.Cpu:
                     const string cpuSqlQuery = @"
-select id, hardware_id, manufacturer, ddr5, integrated_greaphics, tdp, socket from cpu where hardware_id = @HardwareId
+select id, hardware_id, manufacturer, ddr5, integrated_graphics, tdp, socket from cpu where hardware_id = @HardwareId
 ";
                     
                     var cpuSqlParams = new
@@ -135,7 +135,7 @@ select id, hardware_id, manufacturer, ddr5, integrated_greaphics, tdp, socket fr
                 
                 case (int)HardwareTypes.Gpu:
                     const string gpuSqlQuery = @"
-select id, hardware_id, gpu_length, required_power_supplu_wattage from gpu where hardware_id = @HardwareId
+select id, hardware_id, gpu_length, required_power_supply_wattage from gpu where hardware_id = @HardwareId
 ";
                     
                     var gpuSqlParams = new
