@@ -5,52 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f2fc5e7-1027-4afb-9521-96cc0f661f89" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/Controllers/PcBuildController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Controllers/PcBuildController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/Responses/BuildGenerationResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Responses/BuildGenerationResponse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Bll.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Bll.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Bll.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Bll.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Dal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Dal.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Dal.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Dal.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/ref/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/ref/Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/refint/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/refint/Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Abstractions/Cooling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Abstractions/Cooling.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Abstractions/Hardware.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Abstractions/Hardware.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Aio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Aio.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/AirCooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/AirCooler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Case.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Case.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Cpu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Cpu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Gpu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Gpu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/MotherBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/MotherBoard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/PowerSupply.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/PowerSupply.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Ram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Ram.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Ssd.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Models/Hardware/Ssd.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/RepositoryInterfaces/IHardwareRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/RepositoryInterfaces/IHardwareRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Services/BuildGeneratorService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/Services/BuildGeneratorService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/bin/Debug/net7.0/Bll.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/bin/Debug/net7.0/Bll.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/bin/Debug/net7.0/Bll.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/bin/Debug/net7.0/Bll.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/ref/Bll.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/ref/Bll.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/refint/Bll.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/refint/Bll.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/Repositories/HardwareRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/Repositories/HardwareRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Bll.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Bll.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Bll.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Bll.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Dal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Dal.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Dal.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Dal.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/ref/Dal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/ref/Dal.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/refint/Dal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/refint/Dal.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dfa0760c-a503-4ee9-bfe7-46e75a31eaf4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dfa0760c-a503-4ee9-bfe7-46e75a31eaf4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dfa0760c-a503-4ee9-bfe7-46e75a31eaf4/storage_v2/_src_/database/hardware.6OX3Bg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dfa0760c-a503-4ee9-bfe7-46e75a31eaf4/storage_v2/_src_/database/hardware.6OX3Bg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareInfoCollector/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareInfoCollector/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
