@@ -19,7 +19,7 @@ public class GatewayController : ControllerBase
     {
         using var httpClient = new HttpClient();
 
-        using var response = await httpClient.PostAsJsonAsync("https://localhost:7024/PcBuild/generate", request);
+        using var response = await httpClient.PostAsJsonAsync("http://build_generator:7024/PcBuild/generate", request);
         
         var buildGenerationResponse = await response.Content.ReadFromJsonAsync<BuildGenerationResponse>();
 

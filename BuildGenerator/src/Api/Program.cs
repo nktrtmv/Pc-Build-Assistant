@@ -42,6 +42,6 @@ app.MapControllers();
 app.MigrateUp();
 
 var httpClient = new HttpClient();
-httpClient.GetAsync("http://localhost:3000/fill-db");
+httpClient.GetAsync("http://hardware_info_collector:3000/fill-db");
 
 app.Run();

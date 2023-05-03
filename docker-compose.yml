@@ -1,8 +1,7 @@
 version: "3.9"
 services:
-  HardwareDatabase:
+  hardware_database:
     restart: always
-    container_name: hardware_database
     image: postgres:latest
     environment:
       - POSTGRES_DB=hardware
@@ -11,13 +10,37 @@ services:
     ports:
       - "5432:5432"
 
-  MongoDatabase:
+  mongo_database:
     image: mongo:latest
     restart: always
-    container_name: mongo_database
     ports:
       - 27017:27017
     environment:
       # MONGO_INITDB_ROOT_USERNAME: nktrtmv
       # MONGO_INITDB_ROOT_PASSWORD: builds_db_password
       MONGO_INITDB_DATABASE: builds
+
+  api_gateway:
+    build:
+      context: ./ApiGateway
+      dockerfile: Dockerfile
+    ports:
+      - 8000:80
+    depends_on:
+      - build_generator
+
+  build_generator:
+    build:
+      context: ./BuildGenerator
+      dockerfile: Dockerfile
+    ports:
+      - 7024:80
+    depends_on:
+      - hardware_info_collector
+
+  hardware_info_collector:
+    build:
+      context: ./HardwareInfoCollector
+      dockerfile: Dockerfile
+    ports:
+      - 3000:80
