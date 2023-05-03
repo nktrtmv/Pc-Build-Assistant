@@ -1,7 +1,5 @@
 from models.hardware import *
-from bs4 import BeautifulSoup
-import requests
-import lxml
+
 
 class CPU(Hardware):
     Manufacturer: str
@@ -10,5 +8,15 @@ class CPU(Hardware):
     TDP: int
     Socket: str
 
+    def __init__(self, product_type: int, model: str, price: int, link: str,
+                 manufacturer: str, ddr5: bool, integrated_graphics: bool, tdp: int, socket: str):
+        super().__init__(product_type, model, price, link)
+        self.Manufacturer = manufacturer
+        self.DDR5 = ddr5
+        self.IntegratedGraphics = integrated_graphics
+        self.TDP = tdp
+        self.Socket = socket
+
     def __str__(self):
-        return f"model - {self.Model}, link - {self.Link}, manufacturer - {self.Manufacturer}, socket - {self.Socket}, "
+        return f'{self.ProductType} {self.Model} {self.Price} {self.Link} {self.Manufacturer} ' \
+               f'{self.DDR5} {self.IntegratedGraphics} {self.TDP} {self.Socket}'

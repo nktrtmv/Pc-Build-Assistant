@@ -1,0 +1,12 @@
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/bin/Debug/net7.0/Bll.deps.json
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/bin/Debug/net7.0/Bll.dll
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/bin/Debug/net7.0/Bll.pdb
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.csproj.AssemblyReference.cache
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.AssemblyInfoInputs.cache
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.AssemblyInfo.cs
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.csproj.CoreCompileInputs.cache
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.dll
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/obj/Debug/net7.0/refint/Bll.dll
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.pdb
+/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/obj/Debug/net7.0/ref/Bll.dll

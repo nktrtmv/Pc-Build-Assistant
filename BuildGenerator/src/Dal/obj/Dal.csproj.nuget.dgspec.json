@@ -1,0 +1,166 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/Dal.csproj": {}
+  },
+  "projects": {
+    "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/Bll.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/Bll.csproj",
+        "projectName": "Bll",
+        "projectPath": "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/Bll.csproj",
+        "packagesPath": "/Users/nktrtmv/.nuget/packages/",
+        "outputPath": "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nktrtmv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0-preview.3.23174.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/Dal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/Dal.csproj",
+        "projectName": "Dal",
+        "projectPath": "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/Dal.csproj",
+        "packagesPath": "/Users/nktrtmv/.nuget/packages/",
+        "outputPath": "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nktrtmv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/Bll.csproj": {
+                "projectPath": "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/Bll.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "FluentMigrator": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "FluentMigrator.Runner": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "FluentMigrator.Runner.Postgres": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0-preview.3.23174.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0-preview.3.23174.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0-preview.3.23174.8, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.0-preview.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
