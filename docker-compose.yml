@@ -4,7 +4,20 @@ services:
     restart: always
     container_name: hardware_database
     image: postgres:latest
-    env_file:
-      - ./HardwareDatabase/db.env
+    environment:
+      - POSTGRES_DB=hardware
+      - POSTGRES_USER=nktrtmv
+      - POSTGRES_PASSWORD=hardware_db_password
     ports:
       - "5432:5432"
+
+  MongoDatabase:
+    image: mongo:latest
+    restart: always
+    container_name: mongo_database
+    ports:
+      - 27017:27017
+    environment:
+      # MONGO_INITDB_ROOT_USERNAME: nktrtmv
+      # MONGO_INITDB_ROOT_PASSWORD: builds_db_password
+      MONGO_INITDB_DATABASE: builds

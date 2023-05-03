@@ -467,7 +467,7 @@ def update_database(hardware_list: []):
 app = Flask(__name__)
 
 
-@app.route('/update-hardware-database')
+@app.route('/update-hardware-database', methods=['POST'])
 def update_hardware_data():
     try:
         collect_data()
@@ -485,10 +485,12 @@ def update_hardware_data():
 
     return response
 
+@app.route('/fill-db', methods=['GET'])
+def fill_hardware():
+    hardware_list_creation = process_collected_data()
+    update_database(hardware_list_creation)
+    print("FILLED DB BY GATEWAY")
+
 
 if __name__ == '__main__':
-    app.run(debug=True, port=3000, host="127.0.0.1")
-
-    # hardware_list = process_collected_data()
-    #
-    # update_database(hardware_list)
+    app.run(debug=True, port=3000, host="localhost")

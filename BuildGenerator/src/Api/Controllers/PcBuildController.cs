@@ -20,7 +20,7 @@ public class PcBuildController : ControllerBase
     [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(BuildGenerationResponse))]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<IActionResult> GenerateBuild(
-        BuildGenerationRequest request,
+        [FromBody] BuildGenerationRequest request,
         CancellationToken token)
     {
         try
