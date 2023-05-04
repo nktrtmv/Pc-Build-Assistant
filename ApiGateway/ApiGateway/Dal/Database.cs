@@ -5,7 +5,7 @@ namespace ApiGateway.Dal;
 
 public class Database : IDatabase
 {
-    private const string ConnectionString = "mongodb://localhost:27017/builds";
+    private const string ConnectionString = "mongodb://mongo_database:27017/builds";
     private const string DatabaseName = "builds";
     private const string CollectionName = "pc_builds";
     private readonly IMongoCollection<BuildEntity> _collection;

@@ -41,7 +41,4 @@ app.MapControllers();
 
 app.MigrateUp();
 
-var httpClient = new HttpClient();
-httpClient.GetAsync("http://localhost:3000/fill-db");
-
 app.Run();

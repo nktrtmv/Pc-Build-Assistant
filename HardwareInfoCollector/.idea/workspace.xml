@@ -5,47 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0862e8bb-2d3f-4fb0-aea4-d88a636c7b8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/Api/GatewayController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/Api/HardwareDbUpdate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/Dal/Database.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/Dal/IDatabase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/Models/Models.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ApiGateway/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ApiGateway/.idea/ApiGateway.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ApiGateway/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ApiGateway/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/Controllers/PcBuildController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Controllers/PcBuildController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiGateway/ApiGateway/Api/GatewayController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/Api/GatewayController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiGateway/ApiGateway/Api/HardwareDbUpdate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/Api/HardwareDbUpdate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiGateway/ApiGateway/Dal/Database.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/Dal/Database.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiGateway/ApiGateway/bin/Debug/net7.0/ApiGateway.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/bin/Debug/net7.0/ApiGateway.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiGateway/ApiGateway/bin/Debug/net7.0/ApiGateway.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/bin/Debug/net7.0/ApiGateway.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiGateway/ApiGateway/obj/Debug/net7.0/ApiGateway.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/obj/Debug/net7.0/ApiGateway.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiGateway/ApiGateway/obj/Debug/net7.0/ApiGateway.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/obj/Debug/net7.0/ApiGateway.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiGateway/ApiGateway/obj/Debug/net7.0/ref/ApiGateway.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/obj/Debug/net7.0/ref/ApiGateway.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiGateway/ApiGateway/obj/Debug/net7.0/refint/ApiGateway.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/obj/Debug/net7.0/refint/ApiGateway.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiGateway/ApiGateway/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Bll.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Bll.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Bll.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Bll.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Dal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Dal.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Dal.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Dal.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/ref/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/ref/Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/refint/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/refint/Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/bin/Debug/net7.0/Bll.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/bin/Debug/net7.0/Bll.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/bin/Debug/net7.0/Bll.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/bin/Debug/net7.0/Bll.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Bll.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Bll.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Bll.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Bll.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Dal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Dal.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Dal.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/bin/Debug/net7.0/Dal.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/.idea/dataSources/dfa0760c-a503-4ee9-bfe7-46e75a31eaf4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/.idea/dataSources/dfa0760c-a503-4ee9-bfe7-46e75a31eaf4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/.idea/dataSources/dfa0760c-a503-4ee9-bfe7-46e75a31eaf4/storage_v2/_src_/database/hardware.6OX3Bg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/.idea/dataSources/dfa0760c-a503-4ee9-bfe7-46e75a31eaf4/storage_v2/_src_/database/hardware.6OX3Bg/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Техническое задание.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Техническое задание.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +76,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;ApiGateway&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;DockerVersion&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -155,7 +140,15 @@
       <workItem from="1683043536118" duration="768000" />
       <workItem from="1683121891843" duration="274000" />
       <workItem from="1683122169092" duration="1976000" />
-      <workItem from="1683133361781" duration="2089000" />
+      <workItem from="1683133361781" duration="2888000" />
+      <workItem from="1683137899971" duration="598000" />
+      <workItem from="1683139603966" duration="18000" />
+      <workItem from="1683145731122" duration="633000" />
+      <workItem from="1683146640849" duration="35000" />
+      <workItem from="1683230204809" duration="183000" />
+      <workItem from="1683230563540" duration="176000" />
+      <workItem from="1683232404496" duration="4000" />
+      <workItem from="1683234320847" duration="133000" />
     </task>
     <servers />
   </component>
@@ -167,6 +160,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HardwareInfoCollector$main.coverage" NAME="main Coverage Results" MODIFIED="1675415674985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1683136638138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1683137082945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
