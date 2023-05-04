@@ -5,17 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0862e8bb-2d3f-4fb0-aea4-d88a636c7b8f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../ApiGateway/ApiGateway/Api/GatewayController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/Api/GatewayController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiGateway/ApiGateway/Api/HardwareDbUpdate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/Api/HardwareDbUpdate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiGateway/ApiGateway/Dal/Database.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/Dal/Database.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiGateway/ApiGateway/bin/Debug/net7.0/ApiGateway.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/bin/Debug/net7.0/ApiGateway.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiGateway/ApiGateway/bin/Debug/net7.0/ApiGateway.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/bin/Debug/net7.0/ApiGateway.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiGateway/ApiGateway/obj/Debug/net7.0/ApiGateway.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/obj/Debug/net7.0/ApiGateway.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiGateway/ApiGateway/obj/Debug/net7.0/ApiGateway.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/obj/Debug/net7.0/ApiGateway.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiGateway/ApiGateway/obj/Debug/net7.0/ref/ApiGateway.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/obj/Debug/net7.0/ref/ApiGateway.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiGateway/ApiGateway/obj/Debug/net7.0/refint/ApiGateway.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/obj/Debug/net7.0/refint/ApiGateway.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ApiGateway/ApiGateway/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Api.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/.idea/dataSources/069266a0-3486-4776-a2f1-ff1f31aa2850.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/.idea/dataSources/069266a0-3486-4776-a2f1-ff1f31aa2850.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/.idea/dataSources/dfa0760c-a503-4ee9-bfe7-46e75a31eaf4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/.idea/dataSources/dfa0760c-a503-4ee9-bfe7-46e75a31eaf4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/.idea/dataSources/dfa0760c-a503-4ee9-bfe7-46e75a31eaf4/storage_v2/_src_/database/hardware.6OX3Bg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/.idea/dataSources/dfa0760c-a503-4ee9-bfe7-46e75a31eaf4/storage_v2/_src_/database/hardware.6OX3Bg/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HardwareDatabase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareDatabase/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,21 +70,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "DockerVersion",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;DockerVersion&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="HardwareInfoCollector" />
@@ -127,6 +142,13 @@
       <workItem from="1683122169092" duration="1976000" />
       <workItem from="1683133361781" duration="2888000" />
       <workItem from="1683137899971" duration="598000" />
+      <workItem from="1683139603966" duration="18000" />
+      <workItem from="1683145731122" duration="633000" />
+      <workItem from="1683146640849" duration="35000" />
+      <workItem from="1683230204809" duration="183000" />
+      <workItem from="1683230563540" duration="176000" />
+      <workItem from="1683232404496" duration="4000" />
+      <workItem from="1683234320847" duration="133000" />
     </task>
     <servers />
   </component>

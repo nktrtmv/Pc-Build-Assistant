@@ -1,6 +1,7 @@
 version: "3.9"
 services:
   hardware_database:
+    container_name: hardware_database
     restart: always
     image: postgres:latest
     environment:
@@ -10,37 +11,63 @@ services:
     ports:
       - "5432:5432"
 
+  api_gateway:
+    container_name: api_gateway
+    build:
+      context: ./ApiGateway
+      dockerfile: Dockerfile
+    ports:
+      - 5156:80
+    depends_on:
+      - hardware_database
+    # healthcheck:
+    #   test: ["CMD-SHELL", "pg_isready -h hardware_database -U nktrtmv"]
+    #   interval: 5s
+    #   timeout: 1s
+    #   retries: 10
+
   mongo_database:
+    container_name: mongo_database
     image: mongo:latest
     restart: always
     ports:
       - 27017:27017
     environment:
-      # MONGO_INITDB_ROOT_USERNAME: nktrtmv
-      # MONGO_INITDB_ROOT_PASSWORD: builds_db_password
       MONGO_INITDB_DATABASE: builds
-
-  api_gateway:
-    build:
-      context: ./ApiGateway
-      dockerfile: Dockerfile
-    ports:
-      - 8000:80
     depends_on:
-      - build_generator
+      - api_gateway
+    # healthcheck:
+    #   test: ["CMD-SHELL", "mongo --eval 'quit(db.runCommand({ ping: 1 }).ok ? 0 : 2)'"]
+    #   interval: 5s
+    #   timeout: 1s
+    #   retries: 10
 
   build_generator:
+    container_name: build_generator
     build:
       context: ./BuildGenerator
       dockerfile: Dockerfile
     ports:
-      - 7024:80
+      - 5150:80
     depends_on:
-      - hardware_info_collector
+      - mongo_database
+    # healthcheck:
+    #   test: ["CMD-SHELL", "curl --fail http://api_gateway:80"]
+    #   interval: 5s
+    #   timeout: 1s
+    #   retries: 10
 
   hardware_info_collector:
+    container_name: hardware_info_collector
     build:
       context: ./HardwareInfoCollector
       dockerfile: Dockerfile
     ports:
       - 3000:80
+    depends_on:
+      - build_generator
+    # healthcheck:
+    #   test: ["CMD-SHELL", "curl --fail http://mongo_database:27017"]
+    #   interval: 5s
+    #   timeout: 1s
+    #   retries: 10

@@ -19,7 +19,7 @@ public class GatewayController : ControllerBase
     {
         using var httpClient = new HttpClient();
 
-        using var response = await httpClient.PostAsJsonAsync("http://build_generator:7024/PcBuild/generate", request);
+        using var response = await httpClient.PostAsJsonAsync("http://build_generator/PcBuild/generate", request);
         
         var buildGenerationResponse = await response.Content.ReadFromJsonAsync<BuildGenerationResponse>();
 
@@ -34,8 +34,14 @@ public class GatewayController : ControllerBase
     }
     
     [HttpGet("/get-build/{id:guid}")]
-    public Task<PcBuild> GetBuild(Guid id)
+    public Task<PcBuild?> GetBuild(Guid id)
     {
         return Task.FromResult(_database.GetBuild(id));
+    }
+    
+    [HttpGet("hello")]
+    public string Hello()
+    {
+        return "Hello from ApiGateway";
     }
 }

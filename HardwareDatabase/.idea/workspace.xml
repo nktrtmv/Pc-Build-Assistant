@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2f2fc5e7-1027-4afb-9521-96cc0f661f89" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../ApiGateway/ApiGateway/Api/GatewayController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/Api/GatewayController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApiGateway/ApiGateway/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../ApiGateway/ApiGateway/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/bin/Debug/net7.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/Debug/net7.0/Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Api/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/Debug/net7.0/Bll.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Bll/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/Debug/net7.0/Dal.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildGenerator/src/Dal/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HardwareInfoCollector/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareInfoCollector/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HardwareInfoCollector/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareInfoCollector/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HardwareInfoCollector/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HardwareInfoCollector/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2P9N1axQy23jfQYJ7b1NtbvwV6R" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenDatabaseViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "DockerVersion",
+    "last_opened_file_path": "/Users/nktrtmv",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql",
+      "mongo"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+</project>

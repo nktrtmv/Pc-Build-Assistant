@@ -20,7 +20,7 @@ conn = psycopg2.connect(
     dbname="hardware",
     user="nktrtmv",
     password="hardware_db_password",
-    host="localhost",
+    host="hardware_database",
     port="5432"
 )
 
@@ -485,12 +485,8 @@ def update_hardware_data():
 
     return response
 
-@app.route('/fill-db', methods=['GET'])
-def fill_hardware():
-    hardware_list_creation = process_collected_data()
-    update_database(hardware_list_creation)
-    print("FILLED DB BY GATEWAY")
-
 
 if __name__ == '__main__':
+    hardware_list_creation = process_collected_data()
+    update_database(hardware_list_creation)
     app.run(debug=True, port=3000, host="localhost")
