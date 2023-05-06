@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="HTML5">
+<head>
+    <meta charset="UTF-8">
+    <title>PC Build Generator</title>
+    <style>
+        body {
+            background-color: #DDD0C8;
+            color: #323232;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #323232;
+        }
+
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar-nav {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .nav-link {
+            margin-left: 20px;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: normal;
+        }
+
+        .nav-link.active {
+            font-weight: bold;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        label {
+            margin-bottom: 10px;
+        }
+
+        input[type="number"] {
+            width: 200px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            width: 250px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        button {
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            color: #D3D3D3;
+            background-color: #323232;
+        }
+
+        #pcBuild {
+            margin-top: 50px;
+        }
+
+        #pcBuild table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #pcBuild th, #pcBuild td {
+            text-align: left;
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        #pcBuild th {
+            color: #323232;
+        }
+
+        #totalPrice {
+            margin-top: 20px;
+        }
+
+        #buildId {
+            margin-top: 20px;
+        }
+
+        #historyPcBuild {
+            margin-top: 50px;
+        }
+
+        #historyPcBuild table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #historyPcBuild th, #historyPcBuild td {
+            text-align: left;
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        #historyPcBuild th {
+            color: #323232;
+        }
+
+        #historyTotalPrice {
+            margin-top: 20px;
+        }
+
+        #type {
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="navbar-brand">PC Build Generator</div>
+    <ul class="navbar-nav">
+        <li class="nav-link active" onclick="showGenerator()">Generate build</li>
+        <li class="nav-link" onclick="showGetter()">Get build by id</li>
+    </ul>
+</div>
+
+<div id="generateSection">
+    <form>
+        <label for="type">Type:</label>
+        <select id="type" name="type">
+            <option value="0">Gaming</option>
+            <option value="1">Video Editing Workstation</option>
+            <option value="2">It Workstation</option>
+            <option value="3">Office Workstation</option>
+        </select>
+
+        <label for="budget">Budget:</label>
+        <input type="number" id="budget" name="budget" min="50000" max="400000" step="5000">
+
+        <button type="button" onclick="generateBuild()">Generate Build</button>
+    </form>
+
+    <div id="pcBuild">
+        <h2>Recommended PC Build</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Component</th>
+                <th>Model</th>
+                <th>Price</th>
+            </tr>
+            </thead>
+            <tbody id="pcBuildBody">
+            </tbody>
+        </table>
+    </div>
+
+    <div id="totalPrice">
+        <h3>Total Price: <span id="totalPriceValue"></span></h3>
+    </div>
+
+    <div id="buildId">
+        <h3>Build ID: <span id="buildIdValue"></span></h3>
+    </div>
+
+    <script>
+        function generateBuild() {
+            const type = document.getElementById("type").value;
+            const budget = document.getElementById("budget").value;
+
+            console.log(JSON.stringify({type, budget}))
+
+            fetch("http://localhost:5156/generate-build/", {
+                method: "POST",
+                body: "{\"type\":" + type + ",\"budget\":" + budget + "}",
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            })
+                .then(response => response.json())
+                .then(data => {
+                    const pcBuild = data.pcBuild;
+                    const totalPrice = data.totalPrice;
+                    const buildId = data.id;
+                    let html = "";
+                    for (const [component, details] of Object.entries(pcBuild)) {
+                        html += `<tr>
+                                <td>${component}</td>
+                                <td><a href="${details.link}">${details.model}</td>
+                                <td>${details.price}</td>
+                             </tr>`;
+                    }
+                    document.getElementById("pcBuildBody").innerHTML = html;
+                    document.getElementById("totalPriceValue").innerHTML = totalPrice;
+                    document.getElementById("buildIdValue").innerHTML = buildId;
+                })
+                .catch(error => console.error(error));
+        }
+
+    </script>
+</div>
+
+<div id="historySection" class="hidden">
+    <form>
+        <label for="guid">ID:</label>
+        <input type="text" id="guid" name="guid">
+        <button type="button" onclick="showGeneratedBuild()">Get build by id</button>
+    </form>
+
+    <div id="historyPcBuild">
+        <h2>Recommended PC Build</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Component</th>
+                <th>Model</th>
+                <th>Price</th>
+            </tr>
+            </thead>
+            <tbody id="historyPcBuildBody">
+            </tbody>
+        </table>
+    </div>
+
+    <div id="historyTotalPrice">
+        <h3>Total Price: <span id="historyTotalPriceValue"></span></h3>
+    </div>
+
+
+    <script>
+        function showGeneratedBuild() {
+            const guid = document.getElementById("guid").value;
+
+            fetch(`http://localhost:5156/get-build/${guid}`, {
+                method: "GET",
+            })
+                .then(response => response.json())
+                .then(data => {
+                    const historyPcBuild = data.pc_build;
+                    const historyTotalPrice = data.total_price;
+                    console.log(historyPcBuild);
+                    console.log(historyTotalPrice)
+
+                    let html = "";
+                    for (const [component, details] of Object.entries(historyPcBuild)) {
+                        html += `<tr>
+                                <td>${component}</td>
+                                <td><a href="${details.link}">${details.model}</td>
+                                <td>${details.price}</td>
+                             </tr>`;
+                    }
+                    document.getElementById("historyPcBuildBody").innerHTML = html;
+                    document.getElementById("historyTotalPriceValue").innerHTML = historyTotalPrice;
+                })
+                .catch(error => console.error(error));
+        }
+    </script>
+</div>
+
+<script>
+    // JavaScript code
+    const generateSection = document.getElementById("generateSection");
+    const historySection = document.getElementById("historySection");
+
+    function showGenerator() {
+        // reset all nav-links to normal font weight
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+        });
+
+        // make clicked nav-link bold
+        const clickedLink = event.currentTarget;
+        clickedLink.classList.add('active');
+
+        generateSection.classList.remove("hidden");
+        historySection.classList.add("hidden");
+    }
+
+    function showGetter() {
+        // reset all nav-links to normal font weight
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+        });
+
+        // make clicked nav-link bold
+        const clickedLink = event.currentTarget;
+        clickedLink.classList.add('active');
+
+        generateSection.classList.add("hidden");
+        historySection.classList.remove("hidden");
+    }
+
+    document.querySelector(".navbar-nav li:nth-child(1)").addEventListener("click", showGenerator);
+    document.querySelector(".navbar-nav li:nth-child(2)").addEventListener("click", showGetter);
+</script>
+
+</body>
+</html>
+
