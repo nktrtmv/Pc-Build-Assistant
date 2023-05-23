@@ -2989,35 +2989,35 @@
     ]
   },
   "packageFolders": {
-    "/Users/nktrtmv/.nuget/packages/": {}
+    "/Users/nartemov/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Api/Api.csproj",
+      "projectUniqueName": "/Users/nartemov/Library/Mobile Documents/com~apple~CloudDocs/hse/Pc-Build-Assistant/BuildGenerator/src/Api/Api.csproj",
       "projectName": "Api",
-      "projectPath": "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Api/Api.csproj",
-      "packagesPath": "/Users/nktrtmv/.nuget/packages/",
-      "outputPath": "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Api/obj/",
+      "projectPath": "/Users/nartemov/Library/Mobile Documents/com~apple~CloudDocs/hse/Pc-Build-Assistant/BuildGenerator/src/Api/Api.csproj",
+      "packagesPath": "/Users/nartemov/.nuget/packages/",
+      "outputPath": "/Users/nartemov/Library/Mobile Documents/com~apple~CloudDocs/hse/Pc-Build-Assistant/BuildGenerator/src/Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/nktrtmv/.nuget/NuGet/NuGet.Config"
+        "/Users/nartemov/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "https://artifactory.s.o3.ru/artifactory/api/nuget/v3/nuget-virtual-virtual": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/Bll.csproj": {
-              "projectPath": "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/Bll.csproj"
+            "/Users/nartemov/Library/Mobile Documents/com~apple~CloudDocs/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/Bll.csproj": {
+              "projectPath": "/Users/nartemov/Library/Mobile Documents/com~apple~CloudDocs/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/Bll.csproj"
             },
-            "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/Dal.csproj": {
-              "projectPath": "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/Dal.csproj"
+            "/Users/nartemov/Library/Mobile Documents/com~apple~CloudDocs/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/Dal.csproj": {
+              "projectPath": "/Users/nartemov/Library/Mobile Documents/com~apple~CloudDocs/hse/Pc-Build-Assistant/BuildGenerator/src/Dal/Dal.csproj"
             }
           }
         }
@@ -3056,7 +3056,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
       }
     }
   }

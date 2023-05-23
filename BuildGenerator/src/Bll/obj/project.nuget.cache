@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "pPqcwQU9ZNaF+h2U6NXcdySGIwSpYvBvJZsXomh7WYBAJ1tRqqkd1EhXI9U6JzWWSEzoE9llwoM6t7GmNahDbg==",
+  "dgSpecHash": "sXWY8C/qKJZhG5sFPLsE8tpCQPyZ4YFlw5z/wr2o52qpG8T4DG1kcUEAbF/qPfZ82F8u1r74R6p/rZEZbqr5Mg==",
   "success": true,
-  "projectFilePath": "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/Bll.csproj",
+  "projectFilePath": "/Users/nartemov/Library/Mobile Documents/com~apple~CloudDocs/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/Bll.csproj",
   "expectedPackageFiles": [
-    "/Users/nktrtmv/.nuget/packages/mediatr/12.0.1/mediatr.12.0.1.nupkg.sha512",
-    "/Users/nktrtmv/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
-    "/Users/nktrtmv/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0-preview.3.23174.8/microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.3.23174.8.nupkg.sha512"
+    "/Users/nartemov/.nuget/packages/mediatr/12.0.1/mediatr.12.0.1.nupkg.sha512",
+    "/Users/nartemov/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/nartemov/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0-preview.3.23174.8/microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.3.23174.8.nupkg.sha512"
   ],
   "logs": []
 }

@@ -120,25 +120,25 @@
     ]
   },
   "packageFolders": {
-    "/Users/nktrtmv/.nuget/packages/": {}
+    "/Users/nartemov/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/Bll.csproj",
+      "projectUniqueName": "/Users/nartemov/Library/Mobile Documents/com~apple~CloudDocs/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/Bll.csproj",
       "projectName": "Bll",
-      "projectPath": "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/Bll.csproj",
-      "packagesPath": "/Users/nktrtmv/.nuget/packages/",
-      "outputPath": "/Users/nktrtmv/Desktop/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/obj/",
+      "projectPath": "/Users/nartemov/Library/Mobile Documents/com~apple~CloudDocs/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/Bll.csproj",
+      "packagesPath": "/Users/nartemov/.nuget/packages/",
+      "outputPath": "/Users/nartemov/Library/Mobile Documents/com~apple~CloudDocs/hse/Pc-Build-Assistant/BuildGenerator/src/Bll/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/nktrtmv/.nuget/NuGet/NuGet.Config"
+        "/Users/nartemov/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "https://artifactory.s.o3.ru/artifactory/api/nuget/v3/nuget-virtual-virtual": {}
       },
       "frameworks": {
         "net7.0": {
@@ -181,7 +181,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
       }
     }
   }
